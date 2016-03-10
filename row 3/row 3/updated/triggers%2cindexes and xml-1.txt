@@ -1,0 +1,1010 @@
+
+Carefully read the question and answer accordingly.Which are the categories that the XPath operators are divided into?
+1.Boolean operators
+2.Relational operators
+3.Logical operators
+4.Equality operators
+5.Arithmetic operators
+ 
+
+
+
+
+
+
+
+2&4&5  
+
+
+
+
+1&5  
+
+
+
+
+1&2&3  
+
+
+
+
+1&2&4&5  ----
+
+
+
+
+1&3&4  
+
+
+Carefully read the question and answer accordingly.CREATE TRIGGER trgmagic ON empdepthistory 
+AFTER UPDATE AS  
+BEGIN 
+ SELECT * FROM deleted
+ SELECT * FROM inserted
+END 
+
+What action does the above query perform?  
+1.creates an AFTER UPDATE trigger on the empdepthistory table. 
+2.whenever an UPDATE STATEMENT is fired the trgMagic trigger is executed and displays the previous values in the table as well as the updated values.
+3.creates an BEFORE UPDATE trigger on the empdepthistory table. 
+4.whenever an DELETE STATEMENT is fired the trgMagic trigger is executed and displays the previous values in the table as well as the updated values.
+ 
+
+
+
+
+
+
+
+1&2  ---
+
+
+
+
+1&2&3  
+
+
+
+
+2&3  
+
+
+
+
+3&4  
+
+Carefully read the question and answer accordingly.What kind of data does the XML datatype store in SQL Server?
+1.Office documents
+2.Memory maps
+3.XML documents
+4.Fragments
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+2&3  
+
+
+
+
+3&4  --
+
+
+
+
+1&2&4  
+
+
+
+Carefully read the question and answer accordingly.How is the support for XML integrated into SQL Server?
+1.Support for the xml data type
+2.Ability to specify an XQuery query against XML data stored in columns and variables of the xml type
+3.Ability to handle bulk loading of XML data
+4.Ability to merge XML
+ 
+
+
+
+
+
+
+
+1&3  
+
+
+
+
+1&3&4  
+
+
+
+
+2&4  
+
+
+
+
+1&2&3  ---
+
+
+Carefully read the question and answer accordingly.Which statements are true about Secondary XML index?
+1.To enhance search performance, you can create secondary XML indexes
+2.Search performance is slightly reduced but it is easier to manage
+3.A secondary XML index can be created independent of a primary XML index
+4.A primary XML index must first exist before you can create secondary indexes
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+1&3  
+
+
+
+
+1&4  ---
+
+
+
+
+1&2&3  
+
+
+
+
+Carefully read the question and answer accordingly.You might want to write queries that combine relational and XML data processing;How do you write such cross-domain queries?
+1.Apply the value of a SQL variable in your XQuery or XML DML expression using sql:variable()
+2.Apply the value of a SQL variable in your XQuery or XML DML expression using sql:column()
+3.Use the values from a relational column in XQuery or XML DML context with sql:variable()
+4.Use the values from a relational column in XQuery or XML DML context with sql:column()
+ 
+
+
+
+
+
+
+
+2&3&4  
+
+
+
+
+1&4  ---
+
+
+
+
+2&3  
+
+
+
+
+1&2  
+
+
+
+Carefully read the question and answer accordingly.Which are the different ways of storing an XML value to a XML column, parameter or variable?
+1.As a number is implicitly converted to XML data type number
+2.As a character or binary SQL type that is implicitly converted to XML data type
+3.As the content of a file
+4.As the output of the XML publishing mechanism FOR XML with the TYPE directive that generates an XML data type instance
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+2&4  
+
+
+
+
+2&3&4  ----
+
+
+
+
+1&3  
+
+
+
+
+Carefully read the question and answer accordingly.How does SQL server execute a stored procedure or a trigger?
+1.SQL Server stores only the source for stored procedures and triggers
+2.SQL Server keeps the stored procedures & triggers in compiled form for future execution
+3.When a stored procedure or trigger is first executed, the source is compiled into an execution plan
+4.If the stored procedure or trigger is again executed before the execution plan is aged from memory, the relational engine detects the existing plan and reuses it
+5.If the execution plan has aged out of memory, a new plan is built
+ 
+
+
+
+
+
+
+
+2&4&5  
+
+
+
+
+1&2&4  
+
+
+
+
+1&3  
+
+
+
+
+4&5  
+
+
+
+
+1&3&4&5  ----
+
+
+
+Carefully read the question and answer accordingly.What does the input to Query Optimizer consist of?
+1.The query
+2.The database schema
+3.The database statistics
+4.The selected rows
+ 
+
+
+
+
+
+
+
+1&2&3  ----
+
+
+
+
+1&2&4  
+
+
+
+
+1&3  
+
+
+
+
+3&4  
+
+
+
+Carefully read the question and answer accordingly.What does the below Query do ?     INSERT INTO docs                            SELECT 10, xCol  FROM    (SELECT * FROM OPENROWSET        (BULK 'C:\temp\xmlfile.xml',  SINGLE_BLOB) AS xCol) AS R(xCol)   
+ 
+
+
+
+
+
+
+
+It is typed XML insert statement  
+
+
+
+
+Storing XML Data Generated Using FOR XML with TYPE Directive  
+
+
+
+
+Querying and Modifying XML Data  
+
+
+
+
+A new row is inserted into the table named docs  ---
+
+
+
+
+
+
+
+How is the support for XML integrated into SQL Server?
+1.Support for the xml data type
+2.Ability to specify an XQuery query against XML data stored in columns and variables of the xml type
+3.Ability to handle bulk loading of XML data
+4.Ability to merge XML
+ 
+
+
+
+
+
+
+
+1&2&3  ---------------
+
+
+
+
+2&4  
+
+
+
+
+1&3&4  
+
+
+
+
+1&3 
+
+
+XPath consists of which of the following 
+three types of files?
+1.integer
+2.string
+3.number
+4.boolean
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&4  
+
+
+
+
+2&3&4  ----------
+
+
+
+
+1&2&3  
+
+
+
+Which are the categories that the XPath operators are divided into?
+1.Boolean operators
+2.Relational operators
+3.Logical operators
+4.Equality operators
+5.Arithmetic operators
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+1&5  
+
+
+
+
+1&2&3  
+
+
+
+
+1&2&4&5  ----------------
+
+
+
+
+2&4&5  
+
+What does the input to Query Optimizer consist of?
+1.The query
+2.The database schema
+3.The database statistics
+4.The selected rows
+ 
+
+
+
+
+
+
+
+1&2&4  
+
+
+
+
+3&4  
+
+
+
+
+1&3  
+
+
+
+
+1&2&3  ------------------
+
+Which are the different types of Secondary XML index?
+1.PATH Secondary XML index
+2.FILE Secondary XML index
+3.VALUE Secondary XML index
+4.PROPERTY Secondary XML index
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+1&4  
+
+
+
+
+1&3&4  -----------
+
+
+
+
+2&3  
+
+How does SQL server handle Parallel query processing?
+1.During query optimization, SQL Server looks for queries or index operations that might benefit from parallel execution
+2.SQL Server inserts exchange operators into the query execution plan to prepare the query for parallel execution
+3.After exchange operators are inserted, the result is a parallel-query execution plan which can use more than one thread 
+4.After exchange operators are inserted, the queries are compiled into an executable
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+1&2&3  -------------------
+
+
+
+
+2&4  
+
+
+
+
+1&3&4  
+
+Which statements are true about Primary XML index?
+1.It is a shredded and persisted representation of the XML BLOBs in the xml data type column
+2.For each XML binary large object (BLOB) in the column, the index creates several rows of data
+3.For each XML binary large object (BLOB) in the row, the index creates several columns of data
+4.The number of rows in the index is approximately equal to the number of nodes in the XML binary large object
+5.The number of columns in the index is approximately equal to the number of nodes in the XML binary large object
+ 
+
+
+
+
+
+
+
+2&5  
+
+
+
+
+1&2&4  --------------
+
+
+
+
+1&2&3&5  
+
+
+
+
+1&3&5  
+
+
+
+
+3&4  
+
+On what conditions does the SQL Server query optimizer not use a parallel execution plan for a query?
+1.The serial execution cost of the query is not high enough to consider an alternative, parallel execution plan
+2.The parallel execution cost of the query is not high enough to consider an alternative serial execution plan
+3.A serial execution plan is considered faster than any possible parallel execution plan for the particular query
+4.The query contains scalar or relational operators that cannot be run in parallel
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&3&4 ------------ 
+
+
+
+
+2&3  
+
+
+
+
+1&2  
+
+What kind of data does the XML datatype store in SQL Server?
+1.Office documents
+2.Memory maps
+3.XML documents
+4.Fragments
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+3&4  --------------
+
+
+
+
+2&3  
+
+
+
+
+1&2&4  
+
+You might want to write queries that combine relational and XML data processing;How do you write such cross-domain queries?
+1.Apply the value of a SQL variable in your XQuery or XML DML expression using sql:variable()
+2.Apply the value of a SQL variable in your XQuery or XML DML expression using sql:column()
+3.Use the values from a relational column in XQuery or XML DML context with sql:variable()
+4.Use the values from a relational column in XQuery or XML DML context with sql:column()
+ 
+
+
+
+
+
+
+
+1&4----------------- 
+
+
+
+
+2&3  
+
+
+
+
+2&3&4  
+
+
+
+
+1&2  
+
+
+
+
+
+
+
+
+How is the support for XML integrated into SQL Server?
+1.Support for the xml data type
+2.Ability to specify an XQuery query against XML data stored in columns and variables of the xml type
+3.Ability to handle bulk loading of XML data
+4.Ability to merge XML
+ 
+
+
+
+
+
+
+
+1&2&3  ---------------
+
+
+
+
+2&4  
+
+
+
+
+1&3&4  
+
+
+
+
+1&3 
+
+
+XPath consists of which of the following 
+three types of files?
+1.integer
+2.string
+3.number
+4.boolean
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&4  
+
+
+
+
+2&3&4  ----------
+
+
+
+
+1&2&3  
+
+
+
+Which are the categories that the XPath operators are divided into?
+1.Boolean operators
+2.Relational operators
+3.Logical operators
+4.Equality operators
+5.Arithmetic operators
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+1&5  
+
+
+
+
+1&2&3  
+
+
+
+
+1&2&4&5  ----------------
+
+
+
+
+2&4&5  
+
+What does the input to Query Optimizer consist of?
+1.The query
+2.The database schema
+3.The database statistics
+4.The selected rows
+ 
+
+
+
+
+
+
+
+1&2&4  
+
+
+
+
+3&4  
+
+
+
+
+1&3  
+
+
+
+
+1&2&3  ------------------
+
+Which are the different types of Secondary XML index?
+1.PATH Secondary XML index
+2.FILE Secondary XML index
+3.VALUE Secondary XML index
+4.PROPERTY Secondary XML index
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+1&4  
+
+
+
+
+1&3&4  -----------
+
+
+
+
+2&3  
+
+How does SQL server handle Parallel query processing?
+1.During query optimization, SQL Server looks for queries or index operations that might benefit from parallel execution
+2.SQL Server inserts exchange operators into the query execution plan to prepare the query for parallel execution
+3.After exchange operators are inserted, the result is a parallel-query execution plan which can use more than one thread 
+4.After exchange operators are inserted, the queries are compiled into an executable
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+1&2&3  -------------------
+
+
+
+
+2&4  
+
+
+
+
+1&3&4  
+
+Which statements are true about Primary XML index?
+1.It is a shredded and persisted representation of the XML BLOBs in the xml data type column
+2.For each XML binary large object (BLOB) in the column, the index creates several rows of data
+3.For each XML binary large object (BLOB) in the row, the index creates several columns of data
+4.The number of rows in the index is approximately equal to the number of nodes in the XML binary large object
+5.The number of columns in the index is approximately equal to the number of nodes in the XML binary large object
+ 
+
+
+
+
+
+
+
+2&5  
+
+
+
+
+1&2&4  --------------
+
+
+
+
+1&2&3&5  
+
+
+
+
+1&3&5  
+
+
+
+
+3&4  
+
+On what conditions does the SQL Server query optimizer not use a parallel execution plan for a query?
+1.The serial execution cost of the query is not high enough to consider an alternative, parallel execution plan
+2.The parallel execution cost of the query is not high enough to consider an alternative serial execution plan
+3.A serial execution plan is considered faster than any possible parallel execution plan for the particular query
+4.The query contains scalar or relational operators that cannot be run in parallel
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&3&4 ------------ 
+
+
+
+
+2&3  
+
+
+
+
+1&2  
+
+What kind of data does the XML datatype store in SQL Server?
+1.Office documents
+2.Memory maps
+3.XML documents
+4.Fragments
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+3&4  --------------
+
+
+
+
+2&3  
+
+
+
+
+1&2&4  
+
+You might want to write queries that combine relational and XML data processing;How do you write such cross-domain queries?
+1.Apply the value of a SQL variable in your XQuery or XML DML expression using sql:variable()
+2.Apply the value of a SQL variable in your XQuery or XML DML expression using sql:column()
+3.Use the values from a relational column in XQuery or XML DML context with sql:variable()
+4.Use the values from a relational column in XQuery or XML DML context with sql:column()
+ 
+
+
+
+
+
+
+
+1&4----------------- 
+
+
+
+
+2&3  
+
+
+
+
+2&3&4  
+
+
+
+
+1&2  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+

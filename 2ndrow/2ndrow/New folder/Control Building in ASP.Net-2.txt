@@ -1,0 +1,450 @@
+Which statements are true about HTML server controls?
+1.Expose Form controls to the server so that they can be accessed
+2.Expose HTML elements to the server so that they can be programmed
+3.Expose an object model that maps very closely to the HTML elements that they render
+4.Expose an object model that maps very closely to the Forms collection
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+2&3  *******
+
+
+
+
+2&4  
+
+
+
+
+1&3  
+
+
+
+What attributes does the @ Register contain?
+1.TagPrefix
+2.TagName
+3.Cntrl
+4.Src
+ 
+
+
+
+
+
+
+
+2&3&4  
+
+
+
+
+3&4  
+
+
+
+
+1&2&4  *********
+
+
+
+
+1&2  
+
+
+
+
+
+Carefully read the question and answer accordingly.What are the similarities between UserControl class & Page class?
+1.Both derive from the base TemplateControl class 
+2.Both derive from the base Control class 
+3.Both share same property, methods & events
+4.Both share same interfaces
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+3&4  
+
+
+
+
+1&2&3  
+
+
+
+
+1&3  *********
+
+
+
+
+What does the following code denote?
+<table>
+  <tr>
+    <td>
+      <asp:Textbox id="txtAge" runat="server"></asp:Textbox>
+    </td>
+    <td>
+      <asp:CompareValidator id="CompareFieldValidator1" runat="server"
+        ForeColor="Blue"
+        ControlToValidate="txtAge"
+        ValueToCompare="0"
+        Type="Integer"
+        Operator="GreaterThanEqual"
+        ErrorMessage="Please enter a whole number zero or greater.">
+      </asp:CompareValidator >
+    </td>
+  </tr>
+</table>
+ 
+
+
+
+
+
+
+
+Usage of RegularExpressionValidator  
+
+
+
+
+Usage of ComparisonValidator  ***********
+
+
+
+
+Usage of RangeValidator  
+
+
+
+
+Usage of RequiredFieldValidator Which attribute of the @ Register directive indicates the name space you want to associate with the user control for the current page? 
+ 
+
+
+
+
+
+
+
+Src  
+
+
+
+
+Cntrl  
+
+
+
+
+TagPrefix ---------- 
+
+
+
+
+TagName  
+
+
+
+
+
+Which attribute of the @ Register directive indicates the name you want to associate with the user control for the current page? 
+
+ 
+
+  Src 
+ 
+  TagName -------
+ 
+  TagPrefix 
+ 
+  Cntrl 
+ 
+ 
+
+
+
+
+Which are the different types of controls that you can use in ASP.NET Web pages?
+1.ActiveX OCX controls
+2.HTML Server controls
+3.Web Server controls
+4.Validation controls
+5.User controls
+ 
+
+
+
+
+
+
+
+1&4&5  
+
+
+
+
+2&3&4&5  ************
+
+
+
+
+1&2&4&5  
+
+
+
+
+2&3&4  
+
+
+
+
+1&3&5  
+
+
+
+
+How are HTML server control classes categorized in the HTML hierarchy?
+1.The classes that mimic the HTML <ref> tag
+2.The classes that mimic the HTML <input> tag
+3.The classes that may act as container classes
+4.The HtmlImage class
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+2&3&4  ************
+
+
+
+
+1&2&3  
+
+
+
+
+2&4  
+
+
+
+
+What are the differences between a user control & a page?
+1.The file name extension for the user control is .ascx
+2.The user control contains an @ Control directive that defines configuration and other properties
+3.The user control contains an @ Page directive that defines the page in which it is embedded
+4.The user controls cannot run as stand-alone file
+5.The user control does not have html, body, or form elements in it. These elements must be in the hosting page
+ 
+
+
+
+
+
+
+
+1&2&3&4  
+
+
+
+
+2&4  
+
+
+
+
+3&5  
+
+
+
+
+1&2&5  
+
+
+
+
+1&2&4&5  ************
+
+
+
+
+
+
+Which all are the different mechanism of registering a user control?
+1.By using a @ Register directive in the web page
+2.By using @ RegisterControl directive in the web page
+3.By manually installing the user control
+4.By registering the user control in the web.config file
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+1&4  ************
+
+
+
+
+1&2&3  
+
+
+
+
+2&3  
+
+
+
+
+
+What does the following code denote?
+<input id="Name" type="text" size="40" runat="server" />
+<input type="submit" id="Enter" value="Enter" runat="server" />
+ 
+
+
+
+
+
+
+
+The following code shows how to declare an HTML server Control  ***********
+
+
+
+
+The following code shows how to declare a Validation control  
+
+
+
+
+The following code shows how to declare a Web server control  
+
+
+
+
+The following code shows how to declare a HTML element  
+
+
+
+
+
+
+
+
+How do you convert an HTML element on the page to a HTML server control?
+
+ 
+
+  By adding an attribute runat="server" in the page ------
+ 
+  By adding an attribute runat="client" in the page 
+ 
+  By adding an attribute control="servercontrol" in the page 
+ 
+  HTML elements cannot be converted to HTML server controls 
+ 
+
+
+
+
+What does the following code denote?
+<asp:Textbox id="txtFirstName" runat="server"></asp:Textbox>
+<asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+  ControlToValidate="txtFirstName"
+  ErrorMessage="First name is a required field."
+  ForeColor="Blue">
+</asp:RequiredFieldValidator>
+
+
+ 
+
+  Usage of RangeValidator 
+ 
+  Usage of RequiredFieldValidator -----
+ 
+  Usage of RegularExpressionValidator 
+ 
+  Usage of CustomValidator 
+ 
+ 
+
+ 
+
+Which are the different mechanisms of setting a property of a user control once it is exposed?
+1.The property can be set declaratively
+2.The property can be set in a config file
+3.The property can be set programmatically
+4.The property can be set dynamically
+
+ 
+
+  1&3&4 
+ 
+  1&3 -----
+ 
+  1&2&4 
+ 
+  2&4
+ 
+ 
+
+
+
+What does the following code denote?
+PHONENO: <asp:TextBox id="txtPinCode" runat="SERVER"></asp:TextBox>
+     <asp:RegularExpressionValidator 
+       id="txtPhoneNumber_validation" runat="SERVER" 
+       ControlToValidate="txtPhoneNumber" 
+       ErrorMessage="Enter a valid Phone number with area code"
+       ValidationExpression="\d{4}(-\d{8})?">
+     </asp:RegularExpressionValidator>
+
+ 
+
+  Usage of RegularExpressionValidator ----------
+ 
+  Usage of RequiredFieldValidator 
+ 
+  Usage of CustomValidator 
+ 
+  Usage of RangeValidator 
+ 
+ 
+
+

@@ -1,0 +1,189 @@
+Which of the following is the necessary condition for implementing delegates?
+
+ 
+
+  Inheritance 
+ 
+  Exceptions 
+ 
+  Class declaration -------
+ 
+  Run-time Polymorphism 
+ 
+ 
+Which of the following statements are correct about delegates?
+
+ 
+
+  Delegates cannot be used to call a static method of a class. 
+ 
+  Delegates cannot be used to call an instance function. Delegates cannot be used to call an instance subroutine. 
+ 
+  Delegates cannot be used to call procedures that receive variable number of arguments. ----
+ 
+  If signatures of two methods are same they can be called through the same delegate object. 
+ 
+ 
+ 
+Which of the following are the correct ways to declare a delegate for calling the function func() defined in the sample class given below? class Sample
+{
+    public int func(int i, Single j)
+    {
+        /* Add code here. */
+    }
+}
+
+ 
+
+  delegate d(int i, Single j); 
+ 
+  delegate int d(int i, Single j); -------
+ 
+  delegate void (int i, Single j); 
+ 
+  delegate void d(int, Single); 
+ 
+ 
+
+
+
+
+Which of the following statements is incorrect about delegate?
+
+ 
+
+  Delegates are type-safe. 
+ 
+  Delegates are object oriented. 
+ 
+  Only one method can be called using a delegate. ------
+ 
+  Delegates are reference types. 
+ 
+ 
+
+
+
+
+In which of the following areas are delegates commonly used?   
+
+I: Remoting
+II: Serialization
+III: File Input/Output
+IV: Multithreading
+V: Event handling 
+
+ 
+
+  I & II 
+ 
+  I & V 
+ 
+  I, II & III 
+ 
+  IV & V ---------
+
+
+
+
+
+Which of the following statements is incorrect about a delegate?
+
+ 
+
+  Delegates can be shared. 
+ 
+  A single delegate can invoke more than one method. 
+ 
+  Delegates are type-safe wrappers for function pointers. 
+ 
+  Delegate is a value type. ---------
+
+
+
+
+
+
+What is your observation on the following code?
+private void Button1_Click(object sender, System.EventArgs e)
+{
+        Button b = (Button) sender;
+        Label1.Text = b.ID;
+}
+
+ 
+
+  Following code shows how to determine the signature of an event 
+ 
+  Following code shows how to consume an event 
+ 
+  Following code shows how to determine which control caused an event ------
+ 
+  Following code shows how to raise an event 
+ 
+ 
+
+
+
+Suppose a Generic class called SortObjects is to be made capable of sorting objects of any type (Integer, Single, Byte etc.). Which of the following programming constructs should be used to implement the comparison function?
+
+ 
+
+  Interface 
+ 
+  Delegate -----
+ 
+  Namespace 
+ 
+  Encapsulation 
+ 
+ 
+
+
+
+Which of the following statements are correct about a delegate? 
+
+I: Inheritance is a prerequisite for using delegates. 
+II: Delegates are type-safe.
+III: Delegates provide wrappers for function pointers.
+IV: The declaration of a delegate must match the signature of the method that we intend to call using it. 
+
+ 
+
+  All of the listed options 
+ 
+  II, III & IV ------
+ 
+  I & II 
+ 
+  I, II & III 
+ 
+ 
+
+
+
+Suppose on pushing a button an object is to be notified, but it is not known until runtime which object should be notified. Which of the following programming constructs should be used to implement this idea?
+
+ 
+
+  Attribute 
+ 
+  Delegate -----
+ 
+  Namespace 
+ 
+  Interface 
+ 
+ 
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+

@@ -1,0 +1,298 @@
+
+Carefully read the question and answer accordingly.Which of the following statements are true for Protected Internal Access?
+1.Protected Internal members can be accessed by objects in the same assembly
+2.Protected Internal members are exactly same as private members in the same assembly
+3.Protected Internal members can be accessed by derived classes inside and outside the assembly
+4.Protected Internal members are exactly same as internal members in the same assembly
+
+ 
+
+
+
+
+
+
+
+2&3&4  
+
+
+
+
+1&4  
+
+
+
+
+1&3  ************
+
+
+
+
+1&2&3  
+
+
+Carefully read the question and answer accordingly.Which of the following statements are true for Private Access?
+1.Private access is the least restrictive access
+2.Private access is the most restrictive access
+3.Only members within an object may access another member marked as private
+4.Members outside an object can access another members marked as private
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+2&3  
+
+
+
+
+2&4  ********
+
+
+
+
+1&3  
+
+
+Carefully read the question and answer accordingly.Which of the following can be declared in an interface?
+1.Properties
+2.Methods
+3.Enumerations
+4.Events
+ 
+
+
+
+
+
+
+
+2&3&4  
+
+
+
+
+1&2  
+
+
+
+
+1&2&4  *********
+
+
+
+
+1&3&4  
+
+
+A class implements two interfaces each containing three methods. The class contains no instance data. Which of the following correctly indicate the size of the object created from this class?
+ 
+
+
+
+
+
+
+
+12 bytes  
+
+
+
+
+8 bytes  
+
+
+
+
+24 bytes  ************
+
+
+
+
+0 byte  
+
+
+Which of the following statements is correct about an interface used in C#.NET?
+ 
+
+
+
+
+
+
+
+In a program if one class implements an interface then no other class in the same program can implement this interface.  
+
+
+
+
+Properties can be declared inside an interface.  ************
+
+
+
+
+One class can implement only one interface.  
+
+
+
+
+From two base interfaces a new interface cannot be inherited.  
+
+
+
+Which of the following statements is correct about Interfaces used in C#.NET?
+ 
+
+
+
+
+
+
+
+Interfaces can be inherited.  ******
+
+
+
+
+All interfaces are derived from an Object class.  
+
+
+
+
+All interfaces are derived from an Object interface.  
+
+
+
+
+Interfaces can contain only method declaration.  
+
+
+
+
+Which of the following statements is correct about an interface used in C#.NET?
+ 
+
+
+
+
+
+
+
+An interface can contain static methods.  
+
+
+
+
+A class cannot implement an interface partially.  
+
+
+
+
+If a class implements an interface partially, then it becomes an abstract class.  ************
+
+
+
+
+An interface can contain static data.  
+
+
+
+
+Which of the following statements is correct about an interface?
+ 
+
+
+
+
+
+
+
+One interface can be implemented in another interface.  
+
+
+
+
+A class that implements an interface can explicitly implement members of that interface.  ***********
+
+
+
+
+An interface can be implemented by multiple classes in the same program.  
+
+
+
+
+The functions declared in an interface have a body.  
+
+
+
+Which of the following statements is correct?
+ 
+
+
+
+
+
+
+
+To implement an interface member, the corresponding member in the class must be public as well as static.  
+
+
+
+
+When a class inherits an interface it inherits member definitions as well as its implementations.  
+
+
+
+
+interfaces members are automatically public.  *************
+
+
+
+
+An interface cannot contain the signature of an indexer.  
+
+
+
+Which of the following can implement an interface?
+1.Data
+2.Class
+3.Enum
+4.Structure
+
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+1&3&4  
+
+
+
+
+3&4  
+
+
+
+
+2&4  *************
+
+
+
+

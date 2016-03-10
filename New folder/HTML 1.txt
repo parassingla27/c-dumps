@@ -1,0 +1,341 @@
+How do you bind a label with an input element?  
+
+
+
+
+
+
+
+A label cannot be bound with an input element  
+
+
+
+
+The id attribute of the <label> tag should be equal to the for attribute of the related element  
+
+
+
+
+The for attribute of the <label> tag should be equal to the id attribute of the related element  --------
+
+
+
+
+The bind attribute of the <label> tag should be equal to the id attribute of the related element  
+
+
+
+
+
+What does the following code snippet do?
+[title]
+{
+ color:blue;
+}  
+
+
+
+
+
+
+
+It styles all the elements for title initializer  
+
+
+
+
+It styles all the elements with the title id  
+
+
+
+
+It styles all the elements with the title attribute  --------
+
+
+
+
+It styles all the elements within the title class  
+
+
+
+
+
+What are your observations on the following code?
+<select>
+ <option value="volkeswagen">VolkesWagen</option>
+ <option value="mercedes">Mercedes</option>
+ <option value="BMW">BMW</option>
+ <option value="audi">Audi</option>
+</select>
+1.The <select> tag is used to create a drop-down list
+2.The <select> tag is used to create a display list
+3.The <option> tags inside the select element define the available options in the list
+4.The <option> tags inside the select element displays a option-button list  
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+2&4  
+
+
+
+
+1&2&3  
+
+
+
+
+1&3  ------
+
+
+
+
+How can you define an image with clickable areas?  
+
+
+
+
+
+
+
+Using <embed> tag  
+
+
+
+
+Using <image> tag  
+
+
+
+
+Using <object> tag  
+
+
+
+
+Using <map> tag  -------
+
+
+
+
+What is the significance of Document Type Definition (DTD)? Please select all the relevant options?
+1.Is a set of markup declarations that define a document type
+2.It's syntax declares precisely which elements and references may appear where in the document
+3.It declares precisely the programming logic used for each element in the document
+4.It declares entities which may be used in the HTML document
+5.It declares what the contents and attributes are for each element
+ 
+
+
+
+
+
+
+
+2&5  
+
+
+
+
+1&2&3&4  
+
+
+
+
+1&3&4  
+
+
+
+
+3&4&5  
+
+
+
+
+1&2&4&5  ------
+
+
+
+
+Which all statements are true about the <blockquote> tag?
+1.It defines a long quotation
+2.It defines paragraph quotation
+3.browser inserts white space before and after a blockquote element
+4.browser inserts margins for the blockquote element  
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+2&4  
+
+
+
+
+1&2&3  
+
+
+
+
+1&3&4 ----
+
+
+
+What is the significance of Document Type Definition (DTD)? 
+1.Is a set of markup declarations that define a document type
+2.It's syntax declares precisely which elements and references may appear where in the document
+3.It declares precisely the programming logic used for each element in the document
+4.It declares entities which may be used in the HTML document
+5.It declares what the contents and attributes are for each element
+ 
+
+
+
+
+
+
+
+1&2&4&5  -----
+
+
+
+
+1&2&4  
+
+
+
+
+2&3&4&5  
+
+
+
+
+3&5  
+
+
+
+
+1&2&3&4  
+
+
+
+
+What does the following example denote?
+<ol>
+ <li>Coffee</li>
+ <li>Tea</li>
+ <li>Milk</li>
+</ol>
+1.Usage of ordered list tag for an ordered numeric list
+2.Usage of unordered list tag for an unordered list
+3.Usage of ordered paragraph tag
+4.Usage of list item tag to list the items  
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+1&4  -----
+
+
+
+
+1&2  
+
+
+
+
+2&3  
+
+
+
+
+Which mechanism was introduced in HTML 4.0 to define the presentation  of HTML pages?
+ 
+
+
+
+
+
+
+
+Headers  
+
+
+
+
+Cascading Style sheets  -----
+
+
+
+
+Presentation Manager  
+
+
+
+
+XML Documents  
+
+
+
+
+Which mechanism did HTML use to facilitate exchange of information & documents between the researchers?
+ 
+
+
+
+
+
+
+
+Hyperreference  
+
+
+
+
+Hyperjoins  
+
+
+
+
+Hyperlinks ---- 
+
+
+
+
+Hypertexts  
+
+
+
+
+
+
+ 
+
+
+
+
+
+

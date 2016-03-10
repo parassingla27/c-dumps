@@ -1,0 +1,370 @@
+
+Carefully read the question and answer accordingly.Identify Nondeterministic functions from the list:
+1.MONTH
+2.GETDATE
+3.DAY
+4.GETUTCDATE
+5.CURRENT_TIMESTAMP
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&2&4  
+
+
+
+
+2&4&5  ---
+
+
+
+
+1&3&4  
+
+
+
+
+3&4  
+
+
+
+Carefully read the question and answer accordingly.Which statements are true about DENSE_RANK function?
+1.Returns the rank of rows within the partition of a result set, without any gaps in the ranking
+2.The rank of a row is one plus the number of distinct ranks that come before the row in question
+3.Returns the rank of each row within the partition of a result set
+4.The rank of a row is one plus the number of ranks that come before the row in question
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&2--  
+
+
+
+
+3&4  
+
+
+
+
+1&3  
+
+
+
+Carefully read the question and answer accordingly.Which statements are applicable to the GROUPING function?
+1.It is an aggregate function that causes an additional column to be output with a value of 1 when the row is added by either the CUBE or ROLLUP operator
+2.It is an aggregate function that causes an additional column to be output with a value of 1 when the row is not the result of CUBE or ROLLUP operator
+3.It is an aggregate function that causes an additional column to be output with a value of 0 when the row is added by either the CUBE or ROLLUP operator
+4.It is an aggregate function that causes an additional column to be output with a value of 0 when the row is not the result of CUBE or ROLLUP operator
+5.Grouping is allowed only in the select list associated with a WHERE clause that contains either the CUBE or ROLLUP operator
+ 
+
+
+
+
+
+
+
+1&4&5 --- 
+
+
+
+
+1&3&4  
+
+
+
+
+3&4  
+
+
+
+
+2&3  
+
+
+
+
+1&2&5  
+
+
+
+Carefully read the question and answer accordingly.Which statements are true about RANK function?
+1.It returns the rank of each row in the table within the partition of a database 
+2.The rank of a row is equal to the number of ranks that come before the row in question
+3.The rank of a row is one plus the number of ranks that come before the row in question
+4.The RANK function returns consecutive integers
+5.The RANK function does not always return consecutive integers
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&3  
+
+
+
+
+2&3&5  
+
+
+
+
+3&5  ---
+
+
+
+
+4&5  
+
+
+
+
+Carefully read the question and answer accordingly.Which are the different types of built-in functions that SQL Server 2008 supports?
+1.Recordset functions
+2.Rowset functions
+3.Aggregate functions
+4.Ranking functions
+5.Scalar functions
+ 
+
+
+
+
+
+
+
+1&2&3&4  
+
+
+
+
+2&4&5  
+
+
+
+
+3&4  
+
+
+
+
+2&3&4&5  ----
+
+
+
+
+1&3&5  
+
+
+
+Carefully read the question and answer accordingly.Which statements are true about sysname?
+1.sysname is a system-supplied user-defined data type that is functionally equivalent to nvarchar(128)
+2.sysname is a system-supplied user-defined data type that is functionally equivalent to nvarchar(256)
+3.Sysname is not nullable
+4.Sysname can hold Null & negative values
+5.sysname is used to reference database object names
+ 
+
+
+
+
+
+
+
+1&2&5  
+
+
+
+
+1&3&5  ---
+
+
+
+
+2&4&5  
+
+
+
+
+1&3&4  
+
+
+
+
+3&4&5  
+
+
+
+Carefully read the question and answer accordingly.Which statements are true about large varchar?
+1.A sql_char cannot contain a large varchar data type
+2.A sql_variant cannot contain a large varchar data type
+3.Large varchar columns can be specified as a key column in an index
+4.Large varchar columns are the only columns that can be used as partitioning key columns
+5.Large varchar columns cannot be used as partitioning key columns
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+only 4  
+
+
+
+
+2&4&5  
+
+
+
+
+1&3&4  
+
+
+
+
+2&5  ---
+
+
+
+Carefully read the question and answer accordingly.Which statements are true for a scenario where a data type is converted to varbinary?
+1.When data is converted from a string data type to a binary or varbinary data type of unequal length, SQL Server pads or truncates the data on the right
+2.When data is converted from a string data type to a binary or varbinary data type of unequal length, SQL Server pads or truncates the data on the left
+3.When data types, except string, are converted to binary or varbinary, the data is padded or truncated on the left
+4.When data types, except string, are converted to binary or varbinary, the data is padded or truncated on the right
+5.Padding is achieved by using hexadecimal zeros
+ 
+
+
+
+
+
+
+
+1&2&5  
+
+
+
+
+1&3&4&5  
+
+
+
+
+1&3&5  ---
+
+
+
+
+3&4&5  
+
+
+
+
+2&4&5  
+
+
+
+
+Carefully read the question and answer accordingly.Which statements are true about ranking functions?
+1.They are deterministic functions
+2.They are Nondeterministic functions
+3.They return a ranking value for each row in a partition
+4.They return a ranking value for each table in a partition
+ 
+
+
+
+
+
+
+
+2&3  ---
+
+
+
+
+1&2&3  
+
+
+
+
+1&4  
+
+
+
+
+only 4  
+
+
+
+Carefully read the question and answer accordingly.Identify Deterministic functions from the list:
+1.ABS
+2.GETDATE
+3.DATEADD
+4.CURRENT_TIMESTAMP
+5.ISNULL
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+2&3&5  
+
+
+
+
+2&3&4  
+
+
+
+
+1&3&4  
+
+
+
+
+1&3&5  ---
+
+

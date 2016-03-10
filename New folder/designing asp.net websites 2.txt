@@ -1,0 +1,425 @@
+How do you identify whether a page is posted back or not?
+ 
+
+
+
+
+
+
+
+By checking the IsPostBack property  -----------------
+
+
+
+
+By checking the ViewState property  
+
+
+
+
+By checking the PostBack property  
+
+
+
+
+By checking the event log  
+
+
+
+
+
+
+How do you make an assembly visible to all the web applications instead of just one?
+ 
+
+
+
+
+
+
+
+By declaring the assembly public  
+
+
+
+
+By registering the assembly in the same folder as the IIS root folder  
+
+
+
+
+An assembly is private to a web application & cannot be shared  
+
+
+
+
+By registering the assembly in Global Assembly Cache  -----------------
+
+
+
+
+
+
+
+Which statement is true about session variables?
+ 
+
+
+
+
+
+
+
+Session variables are stored locally  
+
+
+
+
+Session variables are used to store information about the entire application state  
+
+
+
+
+Session variables are used to store information that can be retrieved by other pages during the course of a user session --------- 
+
+
+
+
+Session variables are used to store information about assemblies used in the current session  
+
+
+
+
+
+
+
+Which namespace has to be included in the code if you want to use DataSets or DataReaders?
+ 
+
+
+
+
+
+
+
+System.Data  ---------------
+
+
+
+
+System.XML  
+
+
+
+
+System.Web  
+
+
+
+
+System.DataSource  
+
+
+
+
+
+
+______________ allows you to create dynamically generated web pages from the server side using a scripting language such as VBScript or JavaScript.
+ 
+
+
+
+
+
+
+
+HTML  
+
+
+
+
+CGI  
+
+
+
+
+ASP  ---
+
+
+
+
+SGML  
+
+
+
+ASP.NET supports VBScript;
+State True or False.  
+
+
+
+
+
+
+
+True  
+
+
+
+
+False  ----
+
+
+What all happens when a button on an ASP.NET page is clicked?
+ 
+
+
+
+
+
+
+
+The click event calls a web service  
+
+
+
+
+The click event is raised only when the page containing the button is posted back to the server  -----
+
+
+
+
+The click event is directly sent to the server from the client page  
+
+
+
+
+The click event is executed in the browser at the client side 
+
+
+
+
+Which statements are true about Directives?
+1.A directive begins with a <%
+2.A directive ends with a %>
+3.Directives are used to directly compile an ASP.NET page
+4.Directives are used primarily to provide the compiler with the information it needs to compile the page
+ 
+
+
+
+
+
+
+
+1&3  
+
+
+
+
+1&2&4  ----
+
+
+
+
+1&2  
+
+
+
+
+3&4  
+
+
+
+_____________ are cleared when the server is restarted.
+ 
+
+
+
+
+
+
+
+Cookies  
+
+
+
+
+Session variables  
+
+
+
+
+Local variables  
+
+
+
+
+Application variables ----
+
+
+
+
+__________ is a network protocol used to deliver virtually all files and other data, collectively called resources, on the World Wide Web.
+ 
+
+
+
+
+
+
+
+HTTP  -----
+
+
+
+
+UDP  
+
+
+
+
+TCP/IP  
+
+
+
+
+LDAP  
+
+
+
+
+PPP  
+
+
+
+What is a URL?
+ 
+
+
+
+
+
+
+
+A command to locate a particular web server  
+
+
+
+
+A command that locates a particular resource on the web  
+
+
+
+
+A string that represents a client request for a resource on a server  -----
+
+
+
+
+The response from the server to a client request  
+
+
+
+What can be used by the browser to recognize a user who returns back to a website after several hours?
+ 
+
+
+
+
+
+
+
+Cookies  ----
+
+
+
+
+Application variables  
+
+
+
+
+Session variables  
+
+
+
+
+Local variables  
+
+
+
+____________ are small amounts of data sent by a program to the browser and stored on the user's machine to be retrieved later.
+ 
+
+
+
+
+
+
+
+Application variables  
+
+
+
+
+Cookies  ----
+
+
+
+
+Objects  
+
+
+
+
+Session variables  
+
+
+How does the server handle a page request? Please arrange the steps in right order
+
+I: If the class hasn't changed the previously compiled code is executed
+II: The class is recompiled from the new source
+III: If the class has changed the old code is deleted
+IV: The server checks whether the requested page has changed
+ 
+
+
+
+
+
+
+
+I, II, III, IV  
+
+
+
+
+II, III, IV, I  
+
+
+
+
+IV, I, III, II  ----
+
+
+
+
+IV, II, I, III  
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+

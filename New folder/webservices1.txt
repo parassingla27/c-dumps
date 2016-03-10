@@ -1,0 +1,370 @@
+What are your observations on the following code?
+public class Sample
+{
+ [WebMethod]
+ public long CalculateAmount(int itemQty)
+ {
+  long totalAmount = itemQty * 150;
+
+  MessageBox.Show(totalAmount.ToString()); 
+ }
+}
+1.It is an example of a web method of a web service
+2.It is an example of a web method of an aspx page
+3.It will generate a compile time error
+4.It will generate a runtime time error
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+1&3 ---------- 
+
+
+
+
+1&3&4  
+
+
+
+
+2&4  
+
+
+
+
+
+Which are the different elements of a WSDL?
+1.types
+2.enumerators
+3.message
+4.portType
+5.binding
+ 
+
+
+
+
+
+
+
+2&3&4  
+
+
+
+
+1&2&4  
+
+
+
+
+1&3&4&5  --------
+
+
+
+
+3&4&5  
+
+
+
+
+1&2&4&5  
+
+
+
+
+
+How is a web service different from an aspx page?
+1.A web service runs on the server
+2.A web service is based on  XML data transfer
+3.A web service file extension is .asmx
+4.Methods of a web service are tagged as web methods
+5.A web service is same as an aspx page
+ 
+
+
+
+
+
+
+
+2&3&4  -----
+
+
+
+
+2&1&5  
+
+
+
+
+1&3&4  
+
+
+
+
+1&2&3  
+
+
+
+
+1&2&4&5  
+
+
+
+
+
+What is the significance of a SOAP Envelope?
+ 
+
+
+
+
+
+
+
+SOAP Envelope defines the mechanism of transporting a SOAP message  
+
+
+
+
+SOAP Envelope transmits the SOAP message  
+
+
+
+
+SOAP Envelope defines the XML document as a SOAP message  -------
+
+
+
+
+SOAP Envelope defines the Text document as a SOAP message  
+
+
+
+
+
+What enables clients to interact with UDDI directories & Web services?
+ 
+
+
+
+
+
+
+
+UDDI  
+
+
+
+
+SOAP  --------
+
+
+
+
+WSDL  
+
+
+
+
+XML  
+
+
+
+
+How does SOAP enable creation & usage of Web services?
+1.Enables messaging over HTTP
+2.Uses proprietary means of describing data
+3.Uses standard means of describing data
+4.Provides a robust mechanism to send data & structure over the web 
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+1&3&4  ---------
+
+
+
+
+1&4  
+
+
+
+
+2&3  
+
+
+
+
+What is a web service class derived from?
+ 
+
+
+
+
+
+
+
+System.Web.Services.WebService  ------
+
+
+
+
+System.Web.Util  
+
+
+
+
+System.Web.UI.Control  
+
+
+
+
+System.Web.UI.Page  
+
+
+
+
+What does the following code denote?
+public class Sample
+{
+ [WebMethod]
+ public string CompanyName()
+ {
+  return "Cognizant";
+ }
+}
+ 
+
+
+
+
+
+
+
+It is an example of a web method of a web service  -----
+
+
+
+
+It is an example of a remoting client  
+
+
+
+
+It is an example of a Windows service  
+
+
+
+
+It is an example of a web method of an aspx page  
+
+
+
+
+What does the following code denote?
+
+using System;
+namespace BasicServer
+{
+ public class BasicRServer : MarshalByRefObject
+ {
+  public string GetServerResponse()
+  {
+   return “Greetings”;
+  }
+ }
+}
+ 
+
+
+
+
+
+
+
+Remoting Server Object  -----
+
+
+
+
+Web Client Object  
+
+
+
+
+Web Server Object  
+
+
+
+
+Remoting Client Object  
+
+
+
+
+
+Which statements are applicable to Web services?
+1.Web services are built on DCOM
+2.The data transfer is XML based
+3.The communication protocol most often used for Web services is SOAP
+4.The information is passed back & forth through TCP/IP
+5.The information is passed back & forth through HTTP
+ 
+
+
+
+
+
+
+
+2&3&5  ----
+
+
+
+
+1&3&4  
+
+
+
+
+2&3  
+
+
+
+
+1&4&5  
+
+
+
+
+1&2&4  
+
+
+
+
+
+
+
+
+
+
+

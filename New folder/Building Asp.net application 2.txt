@@ -1,0 +1,519 @@
+In ASP.NET which class does the code behind page inherit from?
+ 
+
+
+
+
+
+
+
+System.Web.UI.WebControl  
+
+
+
+
+System.Web.UI.Control  
+
+
+
+
+System.Web.UI.WebPage  
+
+
+
+
+System.Web.UI.Page  -------------------
+
+
+
+
+What does the following code denote?
+<%@ Page Language="C#" Inherits="MyStuff.MyClass" %>
+<HTML>
+    <body>
+        <form id="MyForm" runat="server">
+        <asp:textbox id="MyTextBox" text="Hello World" runat="server"></asp:textbox>
+        <asp:button id="MyButton" text="Echo Input" Onclick="MyButton_Click" runat="server"></asp:button>
+        <asp:label id="MyLabel" runat="server" />
+        </form>
+    </body>
+</HTML>
+ 
+
+
+
+
+
+
+
+It denotes an aspx page  ----
+
+
+
+
+It denotes a code-behind page  
+
+
+
+
+It denotes a config file  
+
+
+
+
+It denotes a header file  
+
+
+
+What are the implications of inheriting the code-behind page from a Page class in an ASP.NET application?
+1.Inheriting from the Page class gives the code-behind page access to the HTML elements in the web page
+2.Inheriting from the Page class gives the code-behind page access to the ASP.NET intrinsic objects, such as Request and Response
+3.Inheriting from the Page class provides a framework for handling events for controls within the ASP.NET page
+4.Inheriting from the Page class provides a framework for handling application configuration issues
+ 
+
+
+
+
+
+
+
+2&3  -----
+
+
+
+
+2&4  
+
+
+
+
+1&2&3  
+
+
+
+
+1&3&4  
+
+
+
+
+How do you implement code behind?
+1.All the user interface related code is written in a .aspx file
+2.All the user interface related code is written in a .cs or .vb file
+3.All the business logic is written in a .cs or .vb file
+4.All the business logic is written in a .aspx file
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+1&3  ----
+
+
+
+
+3&4  
+
+
+
+
+2&3&4  
+
+
+
+What does following directive denote?
+<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="Default.aspx.cs" Inherits="_Default" %>
+1.It denotes that the html details of the page are in Default.aspx.cs
+2.It denotes that the .NET code of the page is in Default.aspx.cs
+3.It denotes that the language used for coding is C#
+4.It denotes that C# code blocks are embedded in the html elements
+ 
+
+
+
+
+
+
+
+1&3&4 
+
+
+
+
+2&3  ----
+
+
+
+
+2&4  
+
+
+
+
+1&4  
+
+
+
+What all activities happen during the Start stage of the page life cycle?
+1.Request and Response page properties are set
+2.The page determines whether the request is a postback or a new request
+3.The page_load event is called
+4.The page sets the IsPostBack property
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+1&2  
+
+
+
+
+2&3&4  
+
+
+
+
+1&2&4  -----
+
+
+
+What does the @ Import directive do?
+ 
+
+
+
+
+
+
+
+Explicitly imports an ASP.NET master page  
+
+
+
+
+Explicitly imports a namespace into a page or user control  -----
+
+
+
+
+Defines control-specific attributes used by the ASP.NET page parser and compiler  
+
+
+
+
+Defines page-specific attributes used by the ASP.NET page parser and compiler  
+
+
+
+What all activities happen during the Initialization stage of the page life cycle?
+1.Each control's UniqueID property is set
+2.Postback data is loaded
+3.A master page and themes are applied to the page
+4.Control property values are restored to the values from view state
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+2&4  
+
+
+
+
+1&3  ---
+
+
+
+
+3&4  
+
+
+Which event is raised at the end of the event-handling stage of the page life cycle?
+ 
+
+
+
+
+
+
+
+Unload  
+
+
+
+
+LoadComplete  ----
+
+
+
+
+InitComplete  
+
+
+
+
+Init  
+
+
+
+How does ASP.NET react when a page is requested by the user?
+1.ASP.NET directly displays the page
+2.ASP.NET automatically compiles the page
+3.ASP.NET determines whether the page needs to be parsed and compiled 
+4.ASP.NET determines whether a cached version of the page can be sent in response without running the page
+ 
+
+
+
+
+
+
+
+3&4  ----
+
+
+
+
+1&2&4  
+
+
+
+
+2&3  
+
+
+
+
+1&2  
+
+
+
+Which event is raised after the page loads view state for itself and all controls, and after it processes postback data that is included with the Request instance?
+ 
+
+
+
+
+
+
+
+PreLoad  ----
+
+
+
+
+Init  
+
+
+
+
+PreInit  
+
+
+
+
+InitComplete  
+
+
+
+
+
+
+How do you separate ASP.NET code from the user interface?
+ 
+
+
+
+
+
+
+
+Using Custom Controls  
+
+
+
+
+Using ASP.NET web pages  
+
+
+
+
+Using User Controls  
+
+
+
+
+Using Code-Behind forms  ************
+
+
+
+
+
+
+What all happens before & during the Rendering stage of the page life cycle?
+1.Page load event is triggered
+2.View state is saved for the page and all controls
+3.Control properties are loaded with information recovered from view state and control state
+4.The Render method for each control is called by the page
+ 
+
+
+
+
+
+
+
+1&3  
+
+
+
+
+3&4  
+
+
+
+
+2&4  ***********
+
+
+
+
+1&2&3  
+
+
+What does the following code denote?
+using System;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace MyStuff
+{
+    public class MyClass : Page
+    {
+        protected System.Web.UI.WebControls.Label MyLabel;
+        protected System.Web.UI.WebControls.Button MyButton;
+        protected System.Web.UI.WebControls.TextBox MyTextBox;
+
+        public void MyButton_Click(Object sender, EventArgs e)
+        {
+            MyLabel.Text = MyTextBox.Text.ToString();
+        }
+    }
+}
+ 
+
+
+
+
+
+
+
+It denotes a header file  
+
+
+
+
+It denotes an aspx page  
+
+
+
+
+It denotes a code-behind page  **********
+
+
+
+
+It denotes a user control  
+
+
+
+
+Which statements are true about the unload event of the page life cycle?
+1.Event is raised before the page has been fully rendered, sent to the client, and is ready to be discarded
+2.Event is raised after the page has been fully rendered, sent to the client, and is ready to be discarded
+3.Page properties such as Response & Request are unloaded
+4.Cleanup is performed
+ 
+
+
+
+
+
+
+
+2&3&4  ****************
+
+
+
+
+1&4  
+
+
+
+
+1&2&4  
+
+
+
+
+2&3  
+
+
+
+Carefully read the question and answer accordingly.How is the Postback event handling done during a page life cycle?
+1.Control event handlers are called
+2.Page Load event is triggered
+3.The Validate method of all validator controls is called
+4.The IsValid property of individual validator controls is set
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&3&4  ************
+
+
+
+
+2&3&4  
+
+
+
+
+1&3  
+

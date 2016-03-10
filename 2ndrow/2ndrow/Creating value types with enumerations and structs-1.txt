@@ -1,0 +1,315 @@
+What are your observations on the following code?
+interface IImage
+{
+    void Paint();
+}
+
+struct Picture : IImage
+{
+    public void Paint()
+    {
+         // painting code goes here
+    }
+    private int x, y, z;  // other struct members
+}
+1.Following code is an example of a class
+2.Following code is an example of a struct
+3.Following code shows how struct implements an interface
+4.Following code denotes polymorphism
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+1&3  
+
+
+
+
+2&4  
+
+
+
+
+2&3  *********
+
+
+
+What all elements can a struct contain?
+1.Constructors
+2.Constants
+3.Namespaces
+4.Fields
+5.Methods
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+1&3&5  
+
+
+
+
+1&2&3&5  
+
+
+
+
+2&4  
+
+
+
+
+1&2&4&5  *******
+
+
+
+What are your observations on the following code?
+using System;
+struct SimpleStruct
+{
+    protected int xval;
+    public int X
+    {
+        get 
+        {
+            return xval;
+        }
+        set 
+        {
+            if (value < 100)
+                xval = value;
+        }
+    }
+    public void DisplayX()
+    {
+        Console.WriteLine("The stored value is: {0}", xval);
+    }
+}
+1.Following code is an example of a class
+2.Following code is an example of a struct
+3.Struct members can be inherited
+4.Struct members cannot be declared as protected
+ 
+
+
+
+
+
+
+
+2&4  *********
+
+
+
+
+1&2&4  
+
+
+
+
+1&2  
+
+
+
+
+1&3  
+
+
+The space required for structure variables is allocated on stack.
+State True or False.  
+
+
+
+
+
+
+
+False  
+
+
+
+
+True  ********
+
+
+
+Creating empty structures is allowed in C#.NET.
+State True or False.  
+
+
+
+
+
+
+
+False  ********
+
+
+
+
+True  
+
+
+
+
+Which of the following statements are correct about an enum used inC#.NET?
+1.To use the keyword enum, we should either use [enum] or System.Enum.
+2.enum is a keyword.
+3.Enum is class declared in System.Type namespace.
+4.Enum is a class declared in System namespace.
+ 
+
+
+
+
+
+
+
+2&4  *****
+
+
+
+
+1&2&3  
+
+
+
+
+1&2  
+
+
+
+
+3&4  
+
+
+
+An enum that is declared inside a class, struct, namespace or interface is treated as public.
+State True or False.  
+
+
+
+
+
+
+
+True  **********
+
+
+
+
+False  
+
+
+
+
+Which of the following CANNOT be used as an underlying datatype for an enum in C#.NET?
+ 
+
+
+
+
+
+
+
+float  ******
+
+
+
+
+byte  
+
+
+
+
+short  
+
+
+
+
+int  
+
+
+
+
+Which of the following statements is correct about an enum used in C#.NET?
+ 
+
+
+
+
+
+
+
+enum is a value type.  **********
+
+
+
+
+Whether it a value type or a reference type depends upon size.  
+
+
+
+
+enum is a reference type.  
+
+
+
+
+Whether it a value type or a reference type depends upon a Project Setting made in Visual Stiiclio.NET.  
+
+
+
+
+
+Which of the following statements are correct about enum used in C#.NET?
+1.Every enum is derived from an Object class.
+2.Every enum is a value type.
+3.There does not exist a way to print an element of an enum as a string.
+4.The default underlying datatype of an enum is int.
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&3  
+
+
+
+
+1&2&4  **********
+
+
+
+
+3&4  
+
+
+
+

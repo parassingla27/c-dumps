@@ -1,0 +1,386 @@
+What does the following code do? 
+enum Month: byte
+{
+ January,
+ February,
+ March,
+ April,
+ May,
+ June,
+ July,
+ August,
+ September,
+ October,
+ November,
+ December
+};
+1.Declares an enum
+2.Change the integral type for each member from int to byte
+3.Inherit enum from type byte
+4.Generates an error
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+3&4  
+
+
+
+
+1&4  
+
+
+
+
+1&2  ----
+
+
+
+
+In the code below, what will be the value of enum member Sunday
+enum Weekday { Monday = 1, Tuesday, Wednesday, Thursday, Friday, Saturday = 10, Sunday }
+ 
+
+
+
+
+
+
+
+6  
+
+
+
+
+11  ----
+
+
+
+
+0  
+
+
+
+
+7  
+
+
+
+
+What are your observations on the following code?
+[Flag]
+[ Serializable]
+public enum ProblemStatus
+{
+ Assigned = 0x0001,
+ NoProblem = 0x0002,
+ Open = 0x0004,
+ Resolved = 0x0008
+}
+1.The code uses multiple attributes
+2.Multiple attributes can also be specified together
+3.Multiple attributes have to be specified one after the other
+4.Multiple attributes can appear in same square brackets separated by a comma
+5.Multiple attributes can appear in same square brackets separated by a space
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+1&2&4  -----
+
+
+
+
+1&2&5  
+
+
+
+
+2&5  
+
+
+
+
+2&3&4  
+
+
+
+
+
+What all statements are true about System.Enum struct?
+1.Using System.Enum struct you can convert string to enum
+2.Using System.Enum struct you can convert object to enum
+3.loop through a list of enum members
+4.Using System.Enum struct you can convert ArrayList to enum
+ 
+
+
+
+
+
+
+
+1&3  -------
+
+
+
+
+2&4  
+
+
+
+
+1&2  
+
+
+
+
+1&3&4  
+
+
+
+
+
+What does the following code denote?
+enum Weekday { Mon = 1, Tue, Wed, Thu, Fri, Sat = 10, Sun }
+dayStr = Enum.GetName(typeof(Weekday), Weekday.Thu);
+ 
+
+
+
+
+
+
+
+Conversion of enum types to integer  
+
+
+
+
+Conversion of string to enum types  
+
+
+
+
+Conversion of integer to enum types  
+
+
+
+
+Conversion of enum types to string  -----
+
+
+
+
+
+
+What does the following code denote?
+enum Weekday { Mon = 1, Tue, Wed, Thu, Fri, Sat = 10, Sun }
+Weekday Sunday = (Weekday)Enum.ToObject(typeof(Weekday), 11);
+ 
+
+
+
+
+
+
+
+Conversion of integer to enum types  -----
+
+
+
+
+Conversion of enum types to integer  
+
+
+
+
+Conversion of enum types to string  
+
+
+
+
+Conversion of string to enum types  
+
+
+
+
+
+What does the following code denote?
+foreach (var day in Enum.GetValues(typeof(Weekday)))
+{
+ Console.WriteLine(day);
+}
+ 
+
+
+
+
+
+
+
+Following code iterates through each member of an enum  -----
+
+
+
+
+Following code iterates through an Array  
+
+
+
+
+Following code iterates through a HashTable  
+
+
+
+
+Following code iterates through an ArrayList  
+
+
+
+
+
+Which statements are true about Structs?
+1.Structs are value types
+2.Structs are reference types
+3.Structs get created on stack when instantiated
+4.Structs get created on heap when instantiated
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+2&4  
+
+
+
+
+1&4  
+
+
+
+
+1&3  ----
+
+
+
+
+
+What are your observations on the following code?
+using System;
+struct SimpleStruct
+{
+    private int xval;
+    public int X
+    {
+        get 
+        {
+            return xval;
+        }
+        set 
+        {
+            if (value < 100)
+                xval = value;
+        }
+    }
+    public void DisplayX()
+    {
+        Console.WriteLine("The stored value is: {0}", xval);
+    }
+}
+1.Following code is an example of a class
+2.Following code is an example of a struct
+3.Struct has a property
+4.Struct has a Method
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+2&3&4  ----
+
+
+
+
+1&3&4  
+
+
+
+
+3&4  
+
+
+
+
+Can structs have constructors?
+1.Structs cannot have constructors
+2.Structs can have constructors
+3.Constructors cannot have parameters
+4.Constructors must take parameters 
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+2&3  
+
+
+
+
+2&4  --------
+
+
+
+
+1&3  
+
+
+
+
+
+
+
+
+

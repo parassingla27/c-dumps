@@ -1,0 +1,494 @@
+Which are the different mechanisms to handle collections of objects?
+1.Arrays
+2.Enums
+3.ArrayLists
+4.Generics
+ 
+
+
+
+
+
+
+
+1&3&4  ----
+
+
+
+
+2&3  
+
+
+
+
+1&4  
+
+
+
+
+1&2&3  
+
+
+
+What does the generics constraint of type Interface do?
+1.Forces type parameter to inherit the base class defined by the constraint
+2.Forces type parameter to inherit the interfaces defined by the constraint
+3.Ensures that the object passed as a parameter implements specific members
+4.Forces type parameter to be a reference type object
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+2&3&4  
+
+
+
+
+2&3  ---
+
+
+
+
+1&2&4  
+
+
+Which all statements are true about Base class Generics constraints?
+1.Force type parameter to inherit the base class defined by the constraint
+2.Force type parameter to inherit the interfaces defined by the constraint
+3.Ensure that the object passed as a parameter implements specific members
+4.Ensure that a parameter inherits the specified base class
+ 
+
+
+
+
+
+
+
+1&4  ----
+
+
+
+
+2&3  
+
+
+
+
+1&3  
+
+
+
+
+1&2&4  
+
+
+
+For the code snippet shown below, which of the following statements are valid?
+
+public class TestIndiaBix
+{
+    public void TestSub<M> (M arg)
+    {
+        Console.Write(arg);
+    }
+}
+class MyProgram
+{
+    static void Main(string[] args)
+    {
+        TestIndiaBix bix = new TestIndiaBix();
+        bix.TestSub("IndiaBIX ");
+        bix.TestSub(4.2f);
+    }
+}
+ 
+
+
+
+
+
+
+
+Program will generate a run-time exception.  
+
+
+
+
+A non generic class Hello cannot have generic subroutine.  
+
+
+
+
+Compiler will generate an error.  
+
+
+
+
+Program will compile and on execution will print: IndiaBIX 4.2  -----
+
+
+
+What are your observations on the following code?
+private void CheckForReferenceType<T>(T type) where T : class, IHoldVal
+{
+ type.Val = 5;
+}
+1.Code denotes usage of Generics Constraint
+2.Code denotes Base Class Generics constraint
+3.Code denotes Interface Generics constraint
+4.Code denotes Reference Type Generics Constraint
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+1&4  ----
+
+
+
+
+2&4  
+
+
+
+
+1&2  
+
+
+
+
+Which all collections can be implemented using Generics?
+1.Arrays
+2.Dictionaries
+3.Lists
+4.Stacks
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+2&3  
+
+
+
+
+2&3&4 ---- 
+
+
+
+
+1&3&4  
+
+
+Which of the following statements is valid about advantages of generics?
+ 
+
+
+
+
+
+
+
+Generics shift the burden of type safety to the programmer rather than compiler.  
+
+
+
+
+Generics eliminate the possibility of run-time errors.  
+
+
+
+
+Generics provide type safety without the overhead of multiple implementations.  ------
+
+
+
+
+Generics require use of explicit type casting.  
+
+
+
+
+Which all are non-generic collections from the list?
+1.ArrayList
+2.Dictionaries
+3.Lists
+4.Stacks
+5.Hashtable
+ 
+
+
+
+
+
+
+
+2&3&5  
+
+
+
+
+1&5  ----
+
+
+
+
+1&4  
+
+
+
+
+3&4  
+
+
+
+
+2&4  
+
+
+
+
+What does the following code denote?
+public class CustomerList : List<Customer>
+{
+ public int DistinctCities
+ {
+  get
+  {
+   // compute number of unique cities
+   // that customers live in
+   return 7;
+  }
+ }
+}
+ 
+
+
+
+
+
+
+
+A Class that derives from an Indexer  
+
+
+
+
+A Class that derives from a Generic type  -----
+
+
+
+
+A Class that derives from a Value type  
+
+
+
+
+A Class that implements an Interface  
+
+
+
+Which of the following statements are valid about generics in .NET Framework?
+1.Generics is a language feature.
+2.We can create a generic class, however, we cannot create a generic interface in C#.NET.
+3.Generics delegates are not allowed in C#.NET.
+4.Generics are useful in collection classes in .NET framework.
+ 
+
+
+
+
+
+
+
+1&4  -----
+
+
+
+
+1&3&4  
+
+
+
+
+2&3  
+
+
+
+
+1&2  
+
+
+
+
+
+
+
+
+
+Which of the following problems of non-generic collection does generics solve?
+1.Lack of flexibility
+2.Lack of type safety
+3.Lack of security
+4.Lack of performance while using value types
+
+
+2&4  *******
+
+
+
+
+1&4  
+
+
+
+
+1&2&3  
+
+
+
+
+1&3  
+
+
+
+For the code snippet given below, which of the following statements is valid?
+
+ public class Generic<T>
+{
+    public T Field;
+}
+class Program
+{
+    static void Main(string[ ] args)
+    {
+        Generic<String> g = new Generic<String>();
+        g.Field = "Hello";
+        Console.WriteLine(g.Field);
+    }
+}
+ 
+
+
+
+
+
+
+
+Compiler will give an error.  
+
+
+
+
+Member Field of class Generic is not accessible directly.  
+
+
+
+
+Name Generic cannot be used as a class name because it's a keyword.  
+
+
+
+
+It will print string "Hello" on the console. *********** 
+
+
+
+Carefully read the question and answer accordingly.What are your comments on the following code?
+Hashtable openWith = new Hashtable();
+        
+openWith.Add("txt", "notepad.exe");
+openWith.Add("bmp", "paint.exe");
+openWith.Add("bmp", "paint.exe");
+openWith.Add("rtf", "wordpad.exe");
+1.It is an example of Hashtable
+2.It is an example of ArrayList
+3.HashTable cannot have duplicate keys
+4.HashTable cannot have duplicate values
+ 
+
+
+
+
+
+
+
+1&3  **********
+
+
+
+
+1&2  
+
+
+
+
+3&4  
+
+
+
+
+2&4  
+What are your observations on the following code?
+
+int iEmpNo = 10;
+string strEmpName = "Johm Miller";
+            
+ArrayList arrlstValues=new ArrayList();
+
+arrlstValues.Add(iEmpNo);
+arrlstValues.Add(strEmpName);
+ 
+
+
+
+
+
+
+
+You cannot assign two different data types to the same ArrayList  
+
+
+
+
+The code has errors  
+
+
+
+
+The ArrayList can hold only integer values  
+
+
+
+
+The ArrayList can hold both the values  ********
+
+
+
+

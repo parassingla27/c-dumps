@@ -1,0 +1,366 @@
+Which all are the main features of Static classes?
+1.They only contain static members
+2.They cannot be instantiated
+3.They have to be instantiated 
+4.They can be inherited
+5.They are sealed
+ 
+
+
+
+
+
+
+
+1&2&5  -----
+
+
+
+
+1&3  
+
+
+
+
+2&4  
+
+
+
+
+2&3&4  
+
+
+
+
+1&4&5  
+
+
+
+
+
+When does Unboxing occur?
+ 
+
+
+
+
+
+
+
+Unboxing occurs when you assign a value type variable to a variable of type object  
+
+
+
+
+Unboxing occurs when you assign a value type variable to another variable of type value  
+
+
+
+
+Unboxing occurs when you assign a variable of type object to a variable with same type as the true type of the object  -----
+
+
+
+
+Unboxing occurs when you assign a reference  type variable to a variable of type object  
+
+
+
+
+
+What does the following code denote?
+public string this[int i]
+{
+ get
+ { 
+  if (i >= 5 && i < 25)
+  {
+   return customerNames [i];
+  }
+  return null;
+ }
+ 
+ set
+ {
+  if (i >= 5 && i < 25)
+  {
+   customerNames [i] = value;
+  }
+ }
+}
+ 
+
+
+
+
+
+
+
+Usage of a Method  
+
+
+
+
+Usage of an Array  
+
+
+
+
+Usage of a Property  
+
+
+
+
+Usage of an Indexer ----
+
+
+
+Which of the statements are true about Fields?
+1.Fields represent the Data portion of the class
+2.Fields are declared in methods
+3.They are the state of an object
+4.They are the members of the class
+ 
+
+
+
+
+
+
+
+1&3&4  -----
+
+
+
+
+1&4  
+
+
+
+
+2&3  
+
+
+
+
+1&2&4  
+
+
+
+
+
+Which all statements are true about Properties?
+1.Properties encapsulate access to public fields
+2.Properties encapsulate access to private fields
+3.With Properties even if the implementation of private state changes, the implementation is not broken
+4.With Properties even the implementation of private state cannot change
+ 
+
+
+
+
+
+
+
+2&4  -----
+
+
+
+
+1&2&3  
+
+
+
+
+1&3  
+
+
+
+
+1&4  
+
+
+
+
+Which of the statements are true for Constant fields?
+1.Constant fields cannot be changed during program execution
+2.Constant fields can be read as many times as needed
+3.Constant fields have to be declared at namespace level
+4.Constant fields are initialized during runtime
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+3&4  
+
+
+
+
+1&2-----  
+
+
+
+
+1&3  
+
+
+
+In the following statement a for loop executes the initializer then shifts the control to the statements in the code block & after one iteration, updates the modifier and checks the boolean expression. State True or False.
+
+for (initializer; Boolean expression; modifier)
+{
+ statement(s)
+}
+ 
+
+
+
+
+
+
+
+TRUE  
+
+
+
+
+FALSE  -------
+
+
+
+
+
+Which statements are true about Indexers?
+1.Indexers like Properties have get and set accessors
+2.Indexers like Arrays use square bracket syntax to access members
+3.Indexers are Read-Only
+4.Indexers like Methods can have parameters
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+1&2&4  -----
+
+
+
+
+2&3&4  
+
+
+
+
+1&2 
+
+
+
+
+Which of the following are Object Members?
+1.Namespaces
+2.Constructors
+3.Fields
+4.Nested Objects
+5.Projects
+ 
+
+
+
+
+
+
+
+1&3&5  
+
+
+
+
+2&3&4 ---- 
+
+
+
+
+1&3&4  
+
+
+
+
+2&5  
+
+
+
+
+2&3  
+
+
+
+
+Which of the following statements is correct about the C#.NET code snippet given below? class Sample
+{
+    private int i;
+    public Single j;
+    private void DisplayData()
+    {
+        Console.WriteLine(i + " " + j);
+    }
+    public void ShowData()
+    {
+        Console.WriteLine(i + " " + j);
+    }
+}
+ 
+
+
+
+
+
+
+
+j cannot be declared as public.  
+
+
+
+
+There is no error in this class.  ----
+
+
+
+
+DisplayData() cannot be declared as private.  
+
+
+
+
+DisplayData() cannot access j.  
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+

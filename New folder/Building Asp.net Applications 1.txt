@@ -1,0 +1,211 @@
+Culture & UICulture properties of a page class can have different culture values. State True or False.  
+
+False  
+
+True  ---
+
+
+The _____________ property is used to specify which resource files are loaded for the page.
+ 
+Localize  
+
+UICulture  ---
+
+Culture  
+
+Globalize  
+
+
+
+
+Carefully read the question and answer accordingly.What types of resource files does ASP.NET framework support?
+1.Local
+2.Private
+3.Protected
+4.Global
+ 
+
+
+
+
+
+
+
+1&4  ------------------
+
+
+
+
+3&4  
+
+
+
+
+2&3&4  
+
+
+
+
+1&2  
+
+
+
+
+
+Carefully read the question and answer accordingly.How do you automatically detect a user's culture?
+ 
+
+
+
+
+
+
+
+By checking the browser settings  
+
+
+
+
+Automatic detection of user's culture is not possible  
+
+
+
+
+By checking the registry settings  
+
+
+
+
+By checking the ini file  ---------------
+
+
+
+How do you access culture names programmatically?
+ 
+By accessing Culture information from browser setting  
+
+By calling the CultureInfo method of the CultureInfo class  
+
+By calling the GetCultures method of the CultureInfo class  ----
+
+By accessing the culture information from web.config  
+
+
+Which statements are true about App_LocalResources folder?
+1.All the resource files to be associated with a page must be added to App_LocalResources folder
+2.App_LocalResources folder must contain the application config file
+3.The application config file must contain details of the App_LocalResources folder
+4.App_LocalResources folder is created in the same folder as the page you want to localize
+ 
+
+3&4  
+
+2&3  
+
+1&4  ----
+
+1&2&3  
+
+
+
+How do you set the culture information manually?
+ 
+By setting the UICulture & Culture property of the <%@ Page %> directive in the aspx  ----
+
+By setting the UICulture & Culture property of the <%@ Localization %> directive in the aspx  
+
+By setting the UICulture & Culture property of the <%@ Culture %> directive in the aspx  
+
+By setting the UICulture & Culture property of the <%@ UICulture %> directive in the aspx  
+
+
+
+
+What is referred to as Specific Culture?
+ 
+If you provide both a language code and a country/region code  ----
+
+If you provide only a country/region code but no language code  
+
+If you do not provide either a language code or a country/region code  
+
+If you provide only a language code but no country/region code  
+
+
+
+
+How do you retrieve Local resources programmatically?
+ 
+By using the GetResourceObject method  
+
+By using the GetResource method  
+
+By using the GetLocalResourceObject method  ----
+
+By using the GetObject method  
+
+
+
+
+Which statements are true about App_GlobalResources folder?
+1.All the resource files to be associated with the entire application must be added to App_GlobalResources folder
+2.App_GlobalResources folder must contain the application config file
+3.The application config file must contain details of the App_GlobalResources folder
+4.App_GlobalResources folder must be located in the root of the application
+ 
+1&2  
+
+2&3  
+
+1&4  
+
+3&4  
+
+How can you display dates with language specific month names?
+ 
+You cannot display dates with language specific month names  
+
+By modifying the web.config file  
+
+By modifying the UICulture property  
+
+By modifying the Culture property  ----
+
+
+
+Which statements are true about App_GlobalResources folder?
+1.All the resource files to be associated with the entire application must be added to App_GlobalResources folder
+2.App_GlobalResources folder must contain the application config file
+3.The application config file must contain details of the App_GlobalResources folder
+4.App_GlobalResources folder must be located in the root of the application
+ 
+2&3  
+
+3&4  
+
+1&2  
+
+1&4  ---
+
+
+The value of the Culture property automatically has an effect on the rendering behavior of ASP.NET controls; State True or False.  
+
+True  ----
+
+False  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,985 @@
+Carefully read the question and answer accordingly.
+Which statements are true about Not Null constraint?
+1.A not null constraint enforces that the column will accept the null values.
+2.A not null constraint enforces that the column will not accept the null values.
+3.Not Null constraint used to enforce the referential integrity
+4.Not Null constraint used to enforce the domain integrity
+
+ 
+
+  2&4 ----
+ 
+  1&3 
+ 
+  3&4 
+ 
+  1&2 
+ 
+ 
+Carefully read the question and answer accordingly.
+Which statements are true about default constraint?
+1.A Default definition is used to add the values into the columns when values are omitted.
+2.The default values must be compatible with the data type of the column to which the default applies.
+3.The default values must be non compatible with the data type of the column to which the default applies.
+4.A Default definition is used to add the values into the columns when values are not omitted.
+
+ 
+
+  1&2 ---- 
+ 
+  2&3 
+ 
+  1&4 
+ 
+  3&4 
+ 
+ 
+Carefully read the question and answer accordingly.
+Which statements are true about check constraint?
+1.A Check constraint Is used to limit  the value that can be placed in a column
+2.A Check constraint Is used to de-limit  the value that can be placed in a column
+3.Check constraint used to enforce the domain integrity
+4.Check constraint used to enforce the entity integrity
+
+ 
+
+  2&4 
+ 
+  1&2 
+ 
+  3&4 
+ 
+  1&3 ---
+ 
+ 
+
+Carefully read the question and answer accordingly.
+Which statements are true about Self Join?
+1.Self-join should be used when you want to create a result set that joins records from two tables
+2.Self-join should be used when you want to create a result set that joins records in a table with other records in the same table
+3.To list a table two times in the same query, you must provide a table alias for at least one of instance of the table name
+4.The table alias helps the query processor determine which rows should be displayed from the right table & which from the left version of the table
+5.The table alias helps the query processor determine whether columns should present data from the right or left version of the table
+
+ 
+
+  2&3&5 ---
+ 
+  1&2&5 
+ 
+  3&4 
+ 
+  1&2&4 
+ 
+  3&5 
+ 
+ 
+
+Carefully read the question and answer accordingly.
+How are Null values handled in Joins sql server 2008?
+1.When there are null values in the columns of the tables being joined, null value of the right table is matched with the null value of the left table
+2.When there are null values in the columns of the tables being joined, the null values do not match each other
+3.The presence of null values in a column from one of the tables being joined can be returned only by using an inner join
+4.The presence of null values in a column from one of the tables being joined can be returned only by using an outer join
+5.When null values are present in data being joined, it is usually preferable to omit them from the results by using a regular join
+
+ 
+
+  1&3 
+ 
+  2&5 
+ 
+  1&2&4 
+ 
+  2&4&5 ---
+ 
+  3&5 
+ 
+ 
+Carefully read the question and answer accordingly.
+INTO statement in the SELECT CLAUSE will _____________.
+
+ 
+
+  Specifies a search condition for the group by column 
+ 
+  Calculate the summary value for each group 
+ 
+  Creates a new table and inserts the resulting rows from the query into it ----
+ 
+  Sort query result by one or more columns 
+ 
+ 
+Carefully read the question and answer accordingly.
+Identify the difference between Inner Joins & Outer Joins.
+1.Inner joins can be specified in the FROM clause only
+2.Inner joins can be specified in either the FROM or WHERE clauses
+3.Outer joins can be specified in the FROM clause only
+4.Outer joins can be specified in the group by clause only
+
+ 
+
+  2&3 ---
+ 
+  2&4 
+ 
+  1&3 
+ 
+  3&4 
+ 
+ 
+Carefully read the question and answer accordingly.
+Which statements are true about Join conditions?
+1.Joins can be specified only in the FROM clause
+2.Joins can be specified only in the WHERE clause
+3.Joins can be specified in either the FROM or WHERE clauses
+4.Specifying the join conditions in the FROM clause helps separate them from any other search conditions that may be specified in a WHERE clause 
+& is the recommended method for specifying joins
+5.Specifying the join conditions in the WHERE clause helps separate them from any other search conditions that may be specified in a FROM clause 
+& is the recommended method for specifying joins
+
+ 
+
+  1&5 
+ 
+  2&4 
+ 
+  3&4 ---
+ 
+  1&3&5 
+ 
+  3&4&5
+ 
+ 
+Carefully read the question and answer accordingly.
+Which statements are true in difference between primary key and unique key?
+1.Primary Key is also a unique key internally, but it cannot allow null
+2.Primary Key is also a unique key internally, but it can allow null
+3.Unique key on the other hand allow a single null and a multiple null in a column
+4.Unique key on the other hand allow a single null but  not  multiple null over the column
+
+ 
+
+  2&3 
+ 
+  1&2&4 
+ 
+  1&4 ---
+ 
+  1&2
+ 
+ 
+Carefully read the question and answer accordingly.
+Identify the statements that are applicable to Three table joins
+1.First two tables have to be used to bridge to the third table
+2.Only one table can be used to bridge from one of the other tables to the third table
+3.At least one column from the middle table have to be referenced in the select list
+4.None of the columns from the middle table have to be referenced in the select list
+
+ 
+
+  1&2&4 
+ 
+  3&4 
+ 
+  2&4 ---
+ 
+  1&3 
+ 
+
+
+
+
+
+
+Which statements are true about Join conditions?
+1.Joins can be specified only in the FROM clause
+2.Joins can be specified only in the WHERE clause
+3.Joins can be specified in either the FROM or WHERE clauses
+4.Specifying the join conditions in the FROM clause helps separate them from any other search conditions that may be specified in a WHERE clause 
+& is the recommended method for specifying joins
+5.Specifying the join conditions in the WHERE clause helps separate them from any other search conditions that may be specified in a FROM clause 
+& is the recommended method for specifying joins
+ 
+
+
+
+
+
+
+
+3&4  ---------------
+
+
+
+
+1&5  
+
+
+
+
+2&4  
+
+
+
+
+3&4&5  
+
+
+
+
+1&3&5  
+
+
+
+Carefully read the question and answer accordingly.Identify the difference between Inner Joins & Outer Joins.
+1.Inner joins can be specified in the FROM clause only
+2.Inner joins can be specified in either the FROM or WHERE clauses
+3.Outer joins can be specified in the FROM clause only
+4.Outer joins can be specified in the group by clause only
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+2&3  ----------
+
+
+
+
+2&4  
+
+
+
+
+1&3  
+
+Which statements are true about data types ntext, text or image with respect to Joins?
+1.Tables cannot  be joined directly on ntext, text, or image columns by using the implicit assignment operator
+2.Tables cannot be joined directly on ntext, text, or image columns
+3.Tables can be joined on ntext, text, or image columns by using SUBSTRING Function
+4.Tables can be joined on ntext, text, or image columns by using STR Function
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+3&4  
+
+
+
+
+2&3  ------------------
+
+
+
+
+1&4  
+
+
+Which statements are true about data types ntext, text or image with respect to Joins?
+1.Tables cannot  be joined directly on ntext, text, or image columns by using the implicit assignment operator
+2.Tables cannot be joined directly on ntext, text, or image columns
+3.Tables can be joined on ntext, text, or image columns by using SUBSTRING Function
+4.Tables can be joined on ntext, text, or image columns by using STR Function
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+3&4  
+
+
+
+
+2&3  --------------
+
+
+
+
+1&2  
+
+INTO statement in the SELECT CLAUSE will _____________.
+ 
+
+
+
+
+
+
+
+Specifies a search condition for the group by column  
+
+
+
+
+Sort query result by one or more columns  
+
+
+
+
+Creates a new table and inserts the resulting rows from the query into it  --------------------
+
+
+
+
+Calculate the summary value for each group  
+
+
+
+
+Which statements are true about Self Join?
+1.Self-join should be used when you want to create a result set that joins records from two tables
+2.Self-join should be used when you want to create a result set that joins records in a table with other records in the same table
+3.To list a table two times in the same query, you must provide a table alias for at least one of instance of the table name
+4.The table alias helps the query processor determine which rows should be displayed from the right table & which from the left version of the table
+5.The table alias helps the query processor determine whether columns should present data from the right or left version of the table
+ 
+
+
+
+
+
+
+
+1&2&4  
+
+
+
+
+3&4  
+
+
+
+
+2&3&5  -------------
+
+
+
+
+1&2&5  
+
+
+
+
+3&5  
+
+How are Null values handled in Joins sql server 2008?
+1.When there are null values in the columns of the tables being joined, null value of the right table is matched with the null value of the left table
+2.When there are null values in the columns of the tables being joined, the null values do not match each other
+3.The presence of null values in a column from one of the tables being joined can be returned only by using an inner join
+4.The presence of null values in a column from one of the tables being joined can be returned only by using an outer join
+5.When null values are present in data being joined, it is usually preferable to omit them from the results by using a regular join
+ 
+
+
+
+
+
+
+
+1&2&4  
+
+
+
+
+2&4&5  ----------------
+
+
+
+
+1&3  
+
+
+
+
+2&5  
+
+
+
+
+3&5  
+
+Which one is the correct query regarding SQL –select Statements?
+ 
+
+
+
+
+
+
+
+SELECT * FROM table_name WHERE (search-condition) GROUP BY (group by expression) HAVING(condition) ORDER BY (ASC/DESC)  -----------------
+
+
+
+
+SELECT * FROM table_name WHERE (search-condition) GROUP BY (group by expression) ORDER BY (ASC/DESC) HAVING(condition)  
+
+
+
+
+SELECT (list of columns ) FROM table_name WHERE (search-condition) HAVING(condition)  ORDER BY (ASC/DESC) GROUP BY (group by expression)  
+
+
+
+
+SELECT (list of columns ) FROM table_name WHERE (search-condition) HAVING(condition) GROUP BY (group by expression) ORDER BY (ASC/DESC)  
+
+1.A not null constraint enforces that the column will accept the null values.
+2.A not null constraint enforces that the column will not accept the null values.
+3.Not Null constraint used to enforce the referential integrity
+4.Not Null constraint used to enforce the domain integrity
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+1&2  
+
+
+
+
+1&3  
+
+
+
+
+2&4  ------------
+
+
+1.A Check constraint Is used to limit  the value that can be placed in a column
+2.A Check constraint Is used to de-limit  the value that can be placed in a column
+3.Check constraint used to enforce the domain integrity
+4.Check constraint used to enforce the entity integrity
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+3&4  
+
+
+
+
+1&3-------------  
+
+
+
+
+1&2  
+
+Which is/are the statement/statements true about the TOP Clause?
+1. The TOP expression can be applied in select ,insert ,update and delete statements
+2.The WHERE clause of the outer query tests whether data exists in the subquery for each row of the outer query
+3.The subquery returns a list of rows that match the criteria
+4.The subquery returns a value of TRUE or FALSE
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+1&3&4  
+
+
+
+
+3&4  
+
+
+
+
+1&2&4  -----------------------
+
+
+
+
+
+
+
+
+Which statements are true about Join conditions?
+1.Joins can be specified only in the FROM clause
+2.Joins can be specified only in the WHERE clause
+3.Joins can be specified in either the FROM or WHERE clauses
+4.Specifying the join conditions in the FROM clause helps separate them from any other search conditions that may be specified in a WHERE clause 
+& is the recommended method for specifying joins
+5.Specifying the join conditions in the WHERE clause helps separate them from any other search conditions that may be specified in a FROM clause 
+& is the recommended method for specifying joins
+ 
+
+
+
+
+
+
+
+3&4  ---------------
+
+
+
+
+1&5  
+
+
+
+
+2&4  
+
+
+
+
+3&4&5  
+
+
+
+
+1&3&5  
+
+
+
+Carefully read the question and answer accordingly.Identify the difference between Inner Joins & Outer Joins.
+1.Inner joins can be specified in the FROM clause only
+2.Inner joins can be specified in either the FROM or WHERE clauses
+3.Outer joins can be specified in the FROM clause only
+4.Outer joins can be specified in the group by clause only
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+2&3  ----------
+
+
+
+
+2&4  
+
+
+
+
+1&3  
+
+Which statements are true about data types ntext, text or image with respect to Joins?
+1.Tables cannot  be joined directly on ntext, text, or image columns by using the implicit assignment operator
+2.Tables cannot be joined directly on ntext, text, or image columns
+3.Tables can be joined on ntext, text, or image columns by using SUBSTRING Function
+4.Tables can be joined on ntext, text, or image columns by using STR Function
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+3&4  
+
+
+
+
+2&3  ------------------
+
+
+
+
+1&4  
+
+
+Which statements are true about data types ntext, text or image with respect to Joins?
+1.Tables cannot  be joined directly on ntext, text, or image columns by using the implicit assignment operator
+2.Tables cannot be joined directly on ntext, text, or image columns
+3.Tables can be joined on ntext, text, or image columns by using SUBSTRING Function
+4.Tables can be joined on ntext, text, or image columns by using STR Function
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+3&4  
+
+
+
+
+2&3  --------------
+
+
+
+
+1&2  
+
+INTO statement in the SELECT CLAUSE will _____________.
+ 
+
+
+
+
+
+
+
+Specifies a search condition for the group by column  
+
+
+
+
+Sort query result by one or more columns  
+
+
+
+
+Creates a new table and inserts the resulting rows from the query into it  --------------------
+
+
+
+
+Calculate the summary value for each group  
+
+
+
+
+Which statements are true about Self Join?
+1.Self-join should be used when you want to create a result set that joins records from two tables
+2.Self-join should be used when you want to create a result set that joins records in a table with other records in the same table
+3.To list a table two times in the same query, you must provide a table alias for at least one of instance of the table name
+4.The table alias helps the query processor determine which rows should be displayed from the right table & which from the left version of the table
+5.The table alias helps the query processor determine whether columns should present data from the right or left version of the table
+ 
+
+
+
+
+
+
+
+1&2&4  
+
+
+
+
+3&4  
+
+
+
+
+2&3&5  -------------
+
+
+
+
+1&2&5  
+
+
+
+
+3&5  
+
+How are Null values handled in Joins sql server 2008?
+1.When there are null values in the columns of the tables being joined, null value of the right table is matched with the null value of the left table
+2.When there are null values in the columns of the tables being joined, the null values do not match each other
+3.The presence of null values in a column from one of the tables being joined can be returned only by using an inner join
+4.The presence of null values in a column from one of the tables being joined can be returned only by using an outer join
+5.When null values are present in data being joined, it is usually preferable to omit them from the results by using a regular join
+ 
+
+
+
+
+
+
+
+1&2&4  
+
+
+
+
+2&4&5  ----------------
+
+
+
+
+1&3  
+
+
+
+
+2&5  
+
+
+
+
+3&5  
+
+Which one is the correct query regarding SQL –select Statements?
+ 
+
+
+
+
+
+
+
+SELECT * FROM table_name WHERE (search-condition) GROUP BY (group by expression) HAVING(condition) ORDER BY (ASC/DESC)  -----------------
+
+
+
+
+SELECT * FROM table_name WHERE (search-condition) GROUP BY (group by expression) ORDER BY (ASC/DESC) HAVING(condition)  
+
+
+
+
+SELECT (list of columns ) FROM table_name WHERE (search-condition) HAVING(condition)  ORDER BY (ASC/DESC) GROUP BY (group by expression)  
+
+
+
+
+SELECT (list of columns ) FROM table_name WHERE (search-condition) HAVING(condition) GROUP BY (group by expression) ORDER BY (ASC/DESC)  
+
+1.A not null constraint enforces that the column will accept the null values.
+2.A not null constraint enforces that the column will not accept the null values.
+3.Not Null constraint used to enforce the referential integrity
+4.Not Null constraint used to enforce the domain integrity
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+1&2  
+
+
+
+
+1&3  
+
+
+
+
+2&4  ------------
+
+
+1.A Check constraint Is used to limit  the value that can be placed in a column
+2.A Check constraint Is used to de-limit  the value that can be placed in a column
+3.Check constraint used to enforce the domain integrity
+4.Check constraint used to enforce the entity integrity
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+3&4  
+
+
+
+
+1&3-------------  
+
+
+
+
+1&2  
+
+Which is/are the statement/statements true about the TOP Clause?
+1. The TOP expression can be applied in select ,insert ,update and delete statements
+2.The WHERE clause of the outer query tests whether data exists in the subquery for each row of the outer query
+3.The subquery returns a list of rows that match the criteria
+4.The subquery returns a value of TRUE or FALSE
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+1&3&4  
+
+
+
+
+3&4  
+
+
+
+
+1&2&4  -----------------------
+
+
+
+Which statements are true right joins?
+1.The RIGHT JOIN keyword returns all rows from the Right table , even if there are no matches in the Left table .
+2.The RIGHT JOIN keyword returns all rows from the Right table , even if there are  matches in the Left table .
+3.It is the opposite of Left Outer join. 
+4.It is the opposite of full Outer join. 
+
+ 
+
+  1&4 
+ 
+  1&3 -----
+ 
+  2&3 
+ 
+  2&3&4 
+ 
+ 
+
+
+
+Which statements are true about CROSS APPLY operator?
+1.CROSS APPLY operator is a mechanism to allow a developer to correlate a table valued function to another table
+2. The set of rows can be either a number or percentage and decimal value
+3.Specifies that only  the last set of rows  will be returned from query result
+4.TOP clause cannot be apply with the variable
+
+ 
+
+  1&2 
+ 
+  2&3&4 
+ 
+  1&4 -----
+ 
+  only 1 
+ 
+
+
+
+Which statements are true about inner joins?
+
+ 
+
+  The INNER JOIN keyword return  all rows. 
+ 
+  The INNER JOIN keyword return rows when there is at least non match in both tables. 
+ 
+  The INNER JOIN keyword return rows when there is at least one match in both tables. ------
+ 
+  The INNER JOIN keyword return  null. 
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,385 @@
+What does the following code denote?
+var orderedCustomers = from customer in Customers where customer.Grade == “Premium” orderby customer.Name select customer.Name;
+1.The following code is an example of Database query
+2.The following code is an example of LINQ query
+3.The following code shows the syntax for Ordering data
+4.The following code shows the syntax for Filtering data
+ 
+
+
+
+
+
+
+
+2&3&4  ----
+
+
+
+1&2&3  
+
+
+
+
+1&4  
+
+
+
+
+1&3&4  
+
+
+What does the following code denote?
+var orderedCustomers = from customer in Customers orderby customer.BusinessDone descending select new {customer.Name,customer.BusinessDone};
+1.The following code is an example of Database query
+2.The following code is an example of LINQ query
+3.The following code shows the syntax for Ordering data in ascending order
+4.The following code shows the syntax for Ordering data in descending order
+5.The following code shows the syntax for Filtering data
+ 
+
+
+
+
+
+
+
+2&3&4  
+
+
+
+
+2&4  ----
+
+
+
+
+1&3&4  
+
+
+
+
+1&2&3&5  
+
+
+
+
+2&4&5  
+
+
+
+
+What does the following code denote?
+var groupedCustomers = from customer in Customers group customer by customer.Grade into customerGroup select customerGroup.Key;
+1.The following code is an example of Database query
+2.The following code is an example of LINQ query
+3.The following code shows the syntax for Grouping data
+4.The following code shows the syntax for Ordering data
+5.The following code shows the syntax for Filtering data
+ 
+
+
+
+
+
+
+
+4&5  
+
+
+
+
+1&3&5  
+
+
+
+
+2&3&4  
+
+
+
+
+2&3  ----
+
+
+
+
+1&2&4  
+
+
+
+What does the following code denote?
+List<Patient> patients = new List<Patient>
+{
+ new Patient { Doctor = “Michael”, Name = “George” },
+ new Patient { Doctor = “Simpson”, Name = “Katy” },
+ new Patient { Doctor = “Michael”, Name = “Sara” }
+};
+var patientsAndDoctors = from doctor in hospitalStaff join patient in patients on doctor.Name equals patient.Doctor select new { Doctor = doctor.Name, Patient = patient.Name };
+1.The following code is an example of Database query
+2.The following code is an example of LINQ query
+3.The following code shows the syntax for Ordering data
+4.The following code shows the syntax for Grouping data
+5.The following code shows the syntax for Joining data
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+2&5  ----
+
+
+
+
+1&3&4&5  
+
+
+
+
+1&2  
+
+
+
+
+1&2&3  
+
+
+
+How can LINQ queries be performed against multiple tables in a DataSet? 
+1.Cannot be performed
+2.By using Join operator
+3.By using GroupBy operator
+4.By using GroupJoin operator
+ 
+
+
+
+
+
+
+
+2&4  ---
+
+
+
+
+1&3&4  
+
+
+
+
+3&4  
+
+
+
+
+1&3  
+
+
+
+How can you load data into a DataSet so that it can be queried using LINQ?
+1.By using DataAdapter Class
+2.By using LINQ to DataSet
+3.By Using LINQ to SQL
+4.By using LINQ to XML
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+1&3  ---
+
+
+
+
+2&4  
+
+
+
+
+1&4  
+
+
+
+What are the forms in which LINQ queries can be created?
+1.Relational data syntax
+2.Intrinsic data syntax
+3.Query-Expression syntax
+4.Method-based query syntax
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+2&3  
+
+
+
+
+3&4 --- 
+
+
+
+
+1&3  
+
+
+
+On which datasources do LINQ queries work?
+1.Datasources that implement IEnumerable<T> interface
+2.Datasources that implement IQueryable interface
+3.Datasources that implement IQuery interface
+4.Datasources that implement IAccess interface
+ 
+
+
+
+
+
+
+
+1&3  
+
+
+
+
+2&4  
+
+
+
+
+3&4  
+
+
+
+
+1&2  ----
+
+
+What does the following code denote?
+DataSet ds = new DataSet();
+ds.Locale = CultureInfo.InvariantCulture;
+FillDataSet(ds);
+
+DataTable orders = ds.Tables["SalesOrderHeader"];
+DataTable details = ds.Tables["SalesOrderDetail"];
+
+var query =
+    from order in orders.AsEnumerable()
+    join detail in details.AsEnumerable()
+    on order.Field<int>("SalesOrderID") equals
+        detail.Field<int>("SalesOrderID")
+    where order.Field<bool>("OnlineOrderFlag") == true
+    && order.Field<DateTime>("OrderDate").Month == 8
+    select new
+    {
+        SalesOrderID =
+            order.Field<int>("SalesOrderID"),
+        SalesOrderDetailID =
+            detail.Field<int>("SalesOrderDetailID"),
+        OrderDate =
+            order.Field<DateTime>("OrderDate"),
+        ProductID =
+            detail.Field<int>("ProductID")
+    };
+
+1.Following code is an example of single table query using LINQ
+2.Following code is an example of multiple table query using LINQ
+3.AsEnumerable method of DataTables is called
+4.AsEnumerable method of DataSets is called
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+1&3&4  
+
+
+
+
+2&3  ----
+
+
+
+
+1&4  
+
+
+What does the following code denote?
+var query = from o in orders
+            where o.OnlineOrderFlag == true
+            select new { o.SalesOrderID,
+                         o.OrderDate,
+                         o.SalesOrderNumber };
+1.Usage of LINQ to query DataSets
+2.Usage of LINQ to query Typed.DataSets
+3.Usage of LINQ to query Multiple tables
+4.Usage of LINQ to query a Single table
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+2&3  
+
+
+
+
+2&4  ----
+
+
+
+
+3&1  
+
+
+
+
+
+
+
+
+
+
+
+

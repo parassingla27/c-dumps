@@ -1,0 +1,1021 @@
+Carefully read the question and answer accordingly.
+Which are the different methods that can be used to retrieve individual database options?
+1.By using DATABASEPROPERTY Function
+2.By using DATABASEPROPERTYEX Function
+3.By using sp_dboption system stored procedure
+4.By using sp_database system stored procedure
+
+ 
+
+  3&4 
+ 
+  2&3 ---
+ 
+  1&2&4 
+ 
+  1&3 
+ 
+ 
+
+Carefully read the question and answer accordingly.
+Which are the different types of file groups?
+1.Secondary
+2.Primary
+3.Use-defined
+4.Hidden
+
+ 
+
+  3&4 
+ 
+  2&3 ---
+ 
+  1&4 
+ 
+  1&2&3 
+ 
+ 
+
+Carefully read the question and answer accordingly.
+Which namespaces may cause the failure of a database collation change if duplicate names result from the changed collation?
+1.Referential integrity constraints
+2.Schema names
+3.Scalar-type names such as system and user-defined types
+4.Index names across multiple tables
+5.Full-text catalog names
+
+ 
+
+  1&2&3 
+ 
+  2&3&4 
+ 
+  4&5 
+ 
+  3&4 
+ 
+  2&3&5 ---
+ 
+ 
+Carefully read the question and answer accordingly.
+What are the steps for creating partition tables & indexes?
+1.Create a partition function to specify how a table or index that uses the function can be partitioned
+2.Create a partition function to specify the placement of the partitions of a partition function on filegroups
+3.Create a partition scheme to specify the placement of the partitions of a partition function on filegroups
+4.Create a partition scheme to specify how a table or index that uses the function can be partitioned
+5.Create a table or index using the partition scheme
+
+ 
+
+  2&3&4 
+ 
+  1&3&5 ---
+ 
+  1&2&5 
+ 
+  2&3&4 
+ 
+  2&3 
+ 
+ 
+Carefully read the question and answer accordingly.
+Which statements are true about Collation?
+1.Collation specifies how strings are sorted and compared
+2.Collation specifies how integers are stored
+3.The selection of collation is language dependent and addresses differences in the way characters are ordered
+4.The default collation for a database is based on the server default, which is set during the installation of SQL Server
+
+ 
+
+  2&3&4 
+ 
+  1&3&4 ---
+ 
+  1&4 
+ 
+  1&3 
+ 
+ 
+Carefully read the question and answer accordingly.
+SQL Server consists of which of the following three types of files?
+1.Primary data files
+2.Secondary data files
+3.Hidden files
+4.Log files
+
+ 
+
+  only 4 
+ 
+  1&2&4 ---
+ 
+  1&2&3&4 
+ 
+  1&3&4 
+ 
+ 
+
+Carefully read the question and answer accordingly.
+How is replication affected by partitioning of tables & indexes?
+1.Partitioning cannot be applied in case of transactional replication
+2.The performance of transactional replication can be optimized through partitioning by effectively reducing the amount of data and metadata that has to be managed by the replication system
+3.The performance of merge replication can be optimized through partitioning by effectively reducing the amount of data and metadata that has to be managed by the replication system
+4.Partitioning cannot be applied in case of merge replication
+5.Replication supports a maximum of 1024 partitions per table
+
+ 
+
+  1&3&4 
+ 
+  2&4&5 
+ 
+  2&3&5 ---
+ 
+  1&2 
+ 
+  3&4 
+ 
+ 
+Carefully read the question and answer accordingly.
+What are the restrictions related to the database file creation?
+1.Database file name should not be more than 8 characters
+2.Database file name should be unique
+3.The file must reside on one of the following devices: the local server on which SQL Server is installed, a Storage Area Network [SAN], or an iSCSI-based network
+4.The path specified must exist on the drive prior to creating the database
+
+ 
+
+  2&3&4 ---
+ 
+  1&3&4 
+ 
+  2&4 
+ 
+  1&3 
+ 
+ 
+
+Carefully read the question and answer accordingly.
+Which of the following two are name types of SQL Server files ?
+1.physical_file_name
+2.logical_file_name
+3.primary_file_name
+4.os_file_name
+
+ 
+
+  2&4 --
+ 
+  3&4 
+ 
+  1&3 
+ 
+  1&2&4 
+ 
+ 
+Carefully read the question and answer accordingly.
+How do you invoke a User-defined table-valued function in SELECT, INSERT, UPDATE or DELETE statements?
+
+ 
+
+  A User-defined table-valued function can be invoked in the WHERE clause of a SELECT, INSERT, UPDATE & DELETE statement 
+ 
+  A User-defined table-valued function can be invoked in the USING clause of a SELECT, INSERT, UPDATE & DELETE statement 
+ 
+  A User-defined table-valued function can be invoked in the FROM clause of a SELECT, INSERT, UPDATE & DELETE statement ---
+ 
+  A User-defined table-valued function can be invoked as a stored procedure from a SELECT, INSERT, UPDATE & DELETE statement 
+ 
+ 
+ 
+Carefully read the question and answer accordingly.
+What are your observations on the following query?
+SELECT name AS object_name 
+  ,SCHEMA_NAME(schema_id) AS schema_name
+  ,type_desc
+  ,create_date
+  ,modify_date
+FROM sys.objects
+WHERE modify_date > GETDATE() - 10
+ORDER BY modify_date;
+1.It uses the sys.all_objects catalog view
+2.It uses the sys.objects catalog view
+3.It returns all database objects that have been modified in the last 10 days
+4.It returns all database objects that have been newly added in the last 10 days
+
+ 
+
+  2&3 --
+ 
+  1&3&4 
+ 
+  2&3&4 
+ 
+  1&4 
+ 
+ 
+Carefully read the question and answer accordingly.
+Which are the conditions that should be in place before you apply a different collation to a database?
+1.You are the only one currently using the database
+2.The database is DETACHED so that it cannot be used by anyone
+3.No schema-bound object depends on the collation of the database
+4.Object-level integrity does not depend on the collation of the database
+5.Changing the database collation does not create duplicates among any system names for the database objects
+
+ 
+
+  1&3&5 ---
+ 
+  2&4 
+ 
+  1&5 
+ 
+  1&3 
+ 
+  3&4&5 
+ 
+ 
+
+Carefully read the question and answer accordingly.
+What is the significance of Recovery model setting?
+1.It determines how much data can be recovered in the event of a media failure
+2.It determines the location where the data should be recovered in the event of a media failure
+3.The default recovery is Full, which provides the greatest level of recovery
+4.The default recovery is Partial, which provides the greatest level of recovery
+
+ 
+
+  1&2&3 
+ 
+  2&4 
+ 
+  1&3 ---
+ 
+  1&3&4 
+ 
+ 
+Carefully read the question and answer accordingly.
+How is the data of Partition tables managed?
+1.The data of partitioned tables and indexes is divided into units that can be spread across more than one filegroup in a database
+2.The data is partitioned horizontally, so that groups of rows are mapped into individual partitions
+3.The data is partitioned vertically, so that groups of rows are mapped into individual partitions
+4.The table or index is treated as a single logical entity when queries or updates are performed on the data
+5.The table or index is treated as multiple logical entities when queries or updates are performed on the data
+
+ 
+
+  1&5 
+ 
+  2&3 
+ 
+  3&4&5 
+ 
+  1&2&4 ----
+ 
+  4&5 
+ 
+ 
+
+
+
+
+
+What are the steps for creating partition tables & indexes?
+1.Create a partition function to specify how a table or index that uses the function can be partitioned
+2.Create a partition function to specify the placement of the partitions of a partition function on filegroups
+3.Create a partition scheme to specify the placement of the partitions of a partition function on filegroups
+4.Create a partition scheme to specify how a table or index that uses the function can be partitioned
+5.Create a table or index using the partition scheme
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+2&3&4  
+
+
+
+
+2&3&4  
+
+
+
+
+1&3&5  ---------------
+
+
+
+
+1&2&5  
+
+Which are the different methods that can be used to retrieve individual database options?
+1.By using DATABASEPROPERTY Function
+2.By using DATABASEPROPERTYEX Function
+3.By using sp_dboption system stored procedure
+4.By using sp_database system stored procedure
+ 
+
+
+
+
+
+
+
+2&3  -------------
+
+
+
+
+1&2&4  
+
+
+
+
+1&3  
+
+
+
+
+3&4  
+
+How is the data of Partition tables managed?
+1.The data of partitioned tables and indexes is divided into units that can be spread across more than one filegroup in a database
+2.The data is partitioned horizontally, so that groups of rows are mapped into individual partitions
+3.The data is partitioned vertically, so that groups of rows are mapped into individual partitions
+4.The table or index is treated as a single logical entity when queries or updates are performed on the data
+5.The table or index is treated as multiple logical entities when queries or updates are performed on the data
+ 
+
+
+
+
+
+
+
+1&2&4  ------------------
+
+
+
+
+2&3  
+
+
+
+
+1&5  
+
+
+
+
+4&5  
+
+Which of the following two are name types of SQL Server files ?
+1.physical_file_name
+2.logical_file_name
+3.primary_file_name
+4.os_file_name
+ 
+
+
+
+
+
+
+
+2&4 ------------------ 
+
+
+
+
+1&2&4  
+
+
+
+
+3&4  
+
+
+
+
+1&3  
+
+
+
+
+
+
+3&4&5  
+
+What are your observations on the following query?
+SELECT name AS object_name 
+  ,SCHEMA_NAME(schema_id) AS schema_name
+  ,type_desc
+  ,create_date
+  ,modify_date
+FROM sys.objects
+WHERE modify_date > GETDATE() - 10
+ORDER BY modify_date;
+1.It uses the sys.all_objects catalog view
+2.It uses the sys.objects catalog view
+3.It returns all database objects that have been modified in the last 10 days
+4.It returns all database objects that have been newly added in the last 10 days
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+1&4  
+
+
+
+
+2&3  ---------------------
+
+
+
+
+2&3&4  
+
+
+Carefully read the question and answer accordingly.What is the significance of Recovery model setting?
+1.It determines how much data can be recovered in the event of a media failure
+2.It determines the location where the data should be recovered in the event of a media failure
+3.The default recovery is Full, which provides the greatest level of recovery
+4.The default recovery is Partial, which provides the greatest level of recovery
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+2&4  
+
+
+
+
+1&2&3  
+
+
+
+
+1&3  -----------
+
+Which namespaces may cause the failure of a database collation change if duplicate names result from the changed collation?
+1.Referential integrity constraints
+2.Schema names
+3.Scalar-type names such as system and user-defined types
+4.Index names across multiple tables
+5.Full-text catalog names
+ 
+
+
+
+
+
+
+
+4&5  
+
+
+
+
+1&2&3  
+
+
+
+
+2&3&5  --------------
+
+
+
+
+3&4  
+
+
+
+
+2&3&4  
+
+How is replication affected by partitioning of tables & indexes?
+1.Partitioning cannot be applied in case of transactional replication
+2.The performance of transactional replication can be optimized through partitioning by effectively reducing the amount of data and metadata that has to be managed by the replication system
+3.The performance of merge replication can be optimized through partitioning by effectively reducing the amount of data and metadata that has to be managed by the replication system
+4.Partitioning cannot be applied in case of merge replication
+5.Replication supports a maximum of 1024 partitions per table
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+2&3&5  ----------------
+
+
+
+
+3&4  
+
+
+
+
+1&2  
+
+
+
+
+2&4&5  
+
+Which statements are true about Collation?
+1.Collation specifies how strings are sorted and compared
+2.Collation specifies how integers are stored
+3.The selection of collation is language dependent and addresses differences in the way characters are ordered
+4.The default collation for a database is based on the server default, which is set during the installation of SQL Server
+ 
+
+
+
+
+
+
+
+1&3  
+
+
+
+
+1&4  
+
+
+
+
+2&3&4  
+
+
+
+
+1&3&4  --------------
+
+SQL Server consists of which of the following three types of files?
+1.Primary data files
+2.Secondary data files
+3.Hidden files
+4.Log files
+ 
+
+
+
+
+
+
+
+only 4  
+
+
+
+
+1&2&4  -------------------
+
+
+
+
+1&3&4  
+
+
+
+
+1&2&3&4  
+
+
+
+
+
+What are the steps for creating partition tables & indexes?
+1.Create a partition function to specify how a table or index that uses the function can be partitioned
+2.Create a partition function to specify the placement of the partitions of a partition function on filegroups
+3.Create a partition scheme to specify the placement of the partitions of a partition function on filegroups
+4.Create a partition scheme to specify how a table or index that uses the function can be partitioned
+5.Create a table or index using the partition scheme
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+2&3&4  
+
+
+
+
+2&3&4  
+
+
+
+
+1&3&5  ---------------
+
+
+
+
+1&2&5  
+
+Which are the different methods that can be used to retrieve individual database options?
+1.By using DATABASEPROPERTY Function
+2.By using DATABASEPROPERTYEX Function
+3.By using sp_dboption system stored procedure
+4.By using sp_database system stored procedure
+ 
+
+
+
+
+
+
+
+2&3  -------------
+
+
+
+
+1&2&4  
+
+
+
+
+1&3  
+
+
+
+
+3&4  
+
+How is the data of Partition tables managed?
+1.The data of partitioned tables and indexes is divided into units that can be spread across more than one filegroup in a database
+2.The data is partitioned horizontally, so that groups of rows are mapped into individual partitions
+3.The data is partitioned vertically, so that groups of rows are mapped into individual partitions
+4.The table or index is treated as a single logical entity when queries or updates are performed on the data
+5.The table or index is treated as multiple logical entities when queries or updates are performed on the data
+ 
+
+
+
+
+
+
+
+1&2&4  ------------------
+
+
+
+
+2&3  
+
+
+
+
+1&5  
+
+
+
+
+4&5  
+
+Which of the following two are name types of SQL Server files ?
+1.physical_file_name
+2.logical_file_name
+3.primary_file_name
+4.os_file_name
+ 
+
+
+
+
+
+
+
+2&4 ------------------ 
+
+
+
+
+1&2&4  
+
+
+
+
+3&4  
+
+
+
+
+1&3  
+
+
+
+
+
+
+3&4&5  
+
+What are your observations on the following query?
+SELECT name AS object_name 
+  ,SCHEMA_NAME(schema_id) AS schema_name
+  ,type_desc
+  ,create_date
+  ,modify_date
+FROM sys.objects
+WHERE modify_date > GETDATE() - 10
+ORDER BY modify_date;
+1.It uses the sys.all_objects catalog view
+2.It uses the sys.objects catalog view
+3.It returns all database objects that have been modified in the last 10 days
+4.It returns all database objects that have been newly added in the last 10 days
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+1&4  
+
+
+
+
+2&3  ---------------------
+
+
+
+
+2&3&4  
+
+
+Carefully read the question and answer accordingly.What is the significance of Recovery model setting?
+1.It determines how much data can be recovered in the event of a media failure
+2.It determines the location where the data should be recovered in the event of a media failure
+3.The default recovery is Full, which provides the greatest level of recovery
+4.The default recovery is Partial, which provides the greatest level of recovery
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+2&4  
+
+
+
+
+1&2&3  
+
+
+
+
+1&3  -----------
+
+Which namespaces may cause the failure of a database collation change if duplicate names result from the changed collation?
+1.Referential integrity constraints
+2.Schema names
+3.Scalar-type names such as system and user-defined types
+4.Index names across multiple tables
+5.Full-text catalog names
+ 
+
+
+
+
+
+
+
+4&5  
+
+
+
+
+1&2&3  
+
+
+
+
+2&3&5  --------------
+
+
+
+
+3&4  
+
+
+
+
+2&3&4  
+
+How is replication affected by partitioning of tables & indexes?
+1.Partitioning cannot be applied in case of transactional replication
+2.The performance of transactional replication can be optimized through partitioning by effectively reducing the amount of data and metadata that has to be managed by the replication system
+3.The performance of merge replication can be optimized through partitioning by effectively reducing the amount of data and metadata that has to be managed by the replication system
+4.Partitioning cannot be applied in case of merge replication
+5.Replication supports a maximum of 1024 partitions per table
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+2&3&5  ----------------
+
+
+
+
+3&4  
+
+
+
+
+1&2  
+
+
+
+
+2&4&5  
+
+Which statements are true about Collation?
+1.Collation specifies how strings are sorted and compared
+2.Collation specifies how integers are stored
+3.The selection of collation is language dependent and addresses differences in the way characters are ordered
+4.The default collation for a database is based on the server default, which is set during the installation of SQL Server
+ 
+
+
+
+
+
+
+
+1&3  
+
+
+
+
+1&4  
+
+
+
+
+2&3&4  
+
+
+
+
+1&3&4  --------------
+
+SQL Server consists of which of the following three types of files?
+1.Primary data files
+2.Secondary data files
+3.Hidden files
+4.Log files
+ 
+
+
+
+
+
+
+
+only 4  
+
+
+
+
+1&2&4  -------------------
+
+
+
+
+1&3&4  
+
+
+
+
+1&2&3&4  
+
+
+
+
+
+
+
+Which are the different types of file groups?
+1.Secondary
+2.Primary
+3.Use-defined
+4.Hidden
+
+ 
+
+  2&3 ***********
+ 
+  1&4 
+ 
+  1&2&3 
+ 
+  3&4 
+ 
+ 
+
+
+
+
+
+What are the restrictions related to the database file creation?
+1.Database file name should not be more than 8 characters
+2.Database file name should be unique
+3.The file must reside on one of the following devices: the local server on which SQL Server is installed, a Storage Area Network [SAN], or an iSCSI-based network
+4.The path specified must exist on the drive prior to creating the database
+
+ 
+
+  1&3 
+ 
+  2&4 
+ 
+  1&3&4 
+ 
+  2&3&4 **********
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

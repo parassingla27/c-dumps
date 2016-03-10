@@ -1,0 +1,302 @@
+Which all languages can be used to develop a ASP.NET application?
+1.C#
+2.Visual Basic .NET
+3.Visual Basic
+4.C Language
+
+
+1&2  **********
+
+
+
+
+1&3&4  
+
+
+
+
+3&4  
+
+
+
+
+2&4  
+
+
+How is ASP.NET different from ASP?
+1.ASP.NET is Object oriented
+2.ASP.NET is Procedure oriented
+3.ASP.NET does not support VBScript
+4.Scripts can be written in VBScript in ASP.NET
+
+
+2&4  
+
+
+
+
+1&3&4  
+
+
+
+
+1&3  ***********
+
+
+
+
+1&2  
+
+
+
+
+Can we use components developed in VB6.0 in ASP.NET?
+ 
+
+
+
+
+
+
+
+Yes; at the assembly level components developed is VB6.0 are same as components developed in .NET, hence they can be used as any other .NET component  
+
+
+
+
+You cannot use components developed in VB6.0 in ASP.NET  
+
+
+
+
+Yes; you can use VB6.0 components using Runtime Callable Wrapper (RCW)  *************
+
+
+
+
+Yes; you can use VB6.0 components using COM Callable Wrapper (CCW)  
+
+
+
+
+
+
+
+
+
+Can we use components developed in .NET in legacy applications like VB6.0?
+ 
+
+
+
+
+
+
+
+Yes; at the assembly level components developed is .NET are same as components developed in VB6.0, hence they can be used in VB6.0  
+
+
+
+
+Yes; you can use .NET components in VB6.0 using Runtime Callable Wrapper (RCW)  
+
+
+
+
+Yes; you can use.NET components in VB6.0 using COM Callable Wrapper (CCW)  ***********
+
+
+
+
+You cannot use components developed in.NET in VB6.0  
+
+
+
+
+
+How is the issue of DLL Hell taken care of in ASP.NET?
+ 
+
+
+
+
+
+
+
+Through versioning of .NET assemblies  **********
+
+
+
+
+Through usage of web services  
+
+
+
+
+Through COM interop  
+
+
+
+
+Through Remoting  
+
+
+
+
+
+
+
+
+Why are ASP.NET applications slightly slower on first load?
+ 
+
+
+
+
+
+
+
+Because on first load ASP.NET files are converted to  native executables that are recognized by the operating system & then executed  
+
+
+
+
+Because .NET loads the entire application in the memory  
+
+
+
+
+Because on first load ASP.NET files are compiled, if necessary, into .NET page classes & then executed  *******
+
+
+
+
+Because .NET framework execution is slower compared to ASP  
+
+
+
+
+
+
+
+
+How is POST different from GET?
+ 
+
+
+
+
+
+
+
+POST & GET do the same thing  
+
+
+
+
+POST sends information in a HTTP Header  ************
+
+
+
+
+POST does not send any information  back to the server  
+
+
+
+
+POST sends information embedded in the URL  
+
+
+
+
+What are the different parts of an ASP.NET web page?
+1.An aspx page consisting UI elements (file name with extension .aspx)
+2.A code behind file consisting of corresponding code (file name with same name as the aspx page & having an extension .cs)
+3.A configuration file with .config extension
+4.A resource file with .resx extension
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+1&2  *********
+
+
+
+
+3&4  
+
+
+
+
+2&3  
+
+
+
+
+
+
+Which class enables ASP.NET to read the HTTP values sent by a client during a Web request?
+ 
+
+
+
+
+
+
+
+Response  
+
+
+
+
+Request  
+
+
+
+
+HttpResponse  
+
+
+
+
+HttpRequest  *******
+
+
+
+
+Which class encapsulates HTTP-response information from an ASP.NET operation?
+ 
+
+
+
+
+
+
+
+Response  
+
+
+
+
+HttpRequest  
+
+
+
+
+Request  
+
+
+
+
+HttpResponse  *********
+
+

@@ -1,0 +1,327 @@
+Which statements are true about cursors?
+1.Opening a cursor on a result set allows processing the result set one row at a time
+2.Opening a cursor on a result set allows processing the complete result set 
+3.You cannot assign a cursor to a variable or parameter
+4.You can assign a cursor to a variable or parameter with a cursor data type
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+3&4  
+
+
+
+
+1&2&3  
+
+
+
+
+1&4  *********
+
+
+How do cursors extend result processing?
+1.By allowing positioning at specific rows of the result set
+2.By allowing modification to the database structure to improve efficiency
+3.By retrieving one row or block of rows from the current position in the result set
+4.By supporting data modifications to the rows at the current position in the result set
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+3&4  
+
+
+
+
+1&3&4  ********
+
+
+
+
+2&3&4  
+
+
+
+Carefully read the question and answer accordingly.Which are the two ways of requesting a cursor?
+1.Transact-SQL
+2.Events handling
+3.Database application programming interface (API) cursor functions
+4.Windows programming interface (API) cursor functions
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+3&4  
+
+
+
+
+2&3&4  
+
+
+
+
+1&3  ***********
+
+
+SQL Server supports cursor functionality for which Database APIs?
+1.DAO
+2.ADO
+3.OLE DB
+4.ODBC
+5.RDO
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+2&3&4  **********
+
+
+
+
+1&4&5  
+
+
+
+
+3&5  
+
+
+
+
+2&4&5  
+
+On what parameters will you choose a cursor type?
+1.Size of the result set
+2.Size of the Database
+3.Percentage of data needed
+4.Need for cursor operations
+5.Level of visibility to data modified by other users
+ 
+
+
+
+
+
+
+
+2&3&4  
+
+
+
+
+2&4  
+
+
+
+
+4&5  
+
+
+
+
+1&3&5  
+
+
+
+
+1&3&4&5  ***********
+
+What are the implications of the CLOSE statement on a cursor?
+1.Closes an open cursor
+2.Releases current resultset
+3.Releases cursor locks held on the rows on which the cursor is positioned
+4.Releases the database connections
+5.Drops dynamic recordsets
+ 
+
+
+
+
+
+
+
+1&2&3&4  
+
+
+
+
+4&5  
+
+
+
+
+1&3&4  
+
+
+
+
+1&2&3  ********
+
+
+
+
+2&3&5  
+
+
+What is the impact of OPEN statement on the cursor?
+1.It opens a Database connection
+2.It opens a Transact-SQL server cursor
+3.It populates the cursor by executing the Transact-SQL statement specified on the DECLARE CURSOR or SET cursor_variable statement
+4.It populates the recordset by executing the Transact-SQL statement
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+1&2  
+
+
+
+
+1&4  
+
+
+
+
+2&3  ******
+
+
+What are the implications of the DEALLOCATE statement on a cursor?
+1.It removes a cursor reference
+2.It closes the database
+3.It removes the database reference
+4.When the last cursor reference is deallocated, the data structures comprising the cursor are released by Microsoft SQL Server
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&2&3  
+
+
+
+
+3&4  
+
+
+
+
+1&4  ***********
+
+
+Which statements are true about @@FETCH_STATUS function?
+1.It returns the status of the last cursor FETCH statement issued against any cursor currently opened by the connection
+2.It returns the status of the first cursor FETCH statement issued against any cursor currently opened by the connection
+3.It is a deterministic function
+4.It is a nondeterministic function
+ 
+
+
+
+
+
+
+
+only 1  
+
+
+
+
+1&3&4  
+
+
+
+
+2&3&4  
+
+
+
+
+1&4  ***********
+
+How does ODBC specify the characteristics of a cursor?
+1.Setting Cursor Types
+2.Setting Cursor Attributes
+3.Setting Cursor Behavior 
+4.Setting Cursor Elements
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+1&3  **********
+
+
+
+
+2&4  
+
+
+
+
+1&2&3  
+
+
+

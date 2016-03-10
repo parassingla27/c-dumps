@@ -1,0 +1,302 @@
+Which control lets you display a progress indicator while an UpdatePanel is updating its content?
+ 
+
+
+
+
+
+
+
+UpdateProgress control  *********
+
+
+
+
+ScriptManager control  
+
+
+
+
+UpdateStatus control  
+
+
+
+
+UpdatePanel control  
+
+
+
+
+
+
+What does the TargetControlID property of the DragPanel extender control contain?
+ 
+
+
+
+
+
+
+
+The ID of the control that the user clicks to drag the Panel control  
+
+
+
+
+It contains the ID of the Panel control to drag  *********
+
+
+
+
+It contains the ID of the Panel control on which the other control will be dragged  
+
+
+
+
+The ID of the panel control that the user clicks to drag the child control  
+
+
+
+
+
+How is an error handled by default during an asynchronous postback?
+ 
+
+
+
+
+
+
+
+A Javascript alert box appears that displays an error message  *********
+
+
+
+
+A 'Page not found' error is thrown  
+
+
+
+
+The application crashes  
+
+
+
+
+The web server transmits an error message  
+
+
+
+
+
+How does the Animation control react to OnHoverOver event?
+ 
+
+
+
+
+
+
+
+Animation stops when you hover your mouse over the target  
+
+
+
+
+Animation plays when you hover your mouse over the target  **********
+
+
+
+
+Animation loads when you hover your mouse over the target  
+
+
+
+
+Animation pauses when you hover your mouse over the target  
+
+
+
+
+
+Which control enables you to display an animation while the UpdatePanel is performing an asynchronous postback
+ 
+
+
+
+
+
+
+
+UpdatePanelAnimation  *********
+
+
+
+
+SlideShow  
+
+
+
+
+Animation  
+
+
+
+
+DropShadow  
+
+
+
+
+
+Where is the supporting code for client-side Microsoft AJAX Framework present?
+ 
+
+
+
+
+
+
+
+MicrosoftAjax.js  *********
+
+
+
+
+JavaScript.js  
+
+
+
+
+Microsoft.js  
+
+
+
+
+Ajax.js  
+
+
+
+
+
+
+Which file contains the JavaScript code for supporting the UpdatePanel control?
+ 
+
+
+
+
+
+
+
+MicrosoftAjaxWebForms.js  ***********
+
+
+
+
+Javascript.js  
+
+
+
+
+MicrosoftAjax.js  
+
+
+
+
+Ajax.js  
+
+
+
+
+What does the redirectUrl parameter of AuthenticationService.Login method do?
+ 
+
+
+
+
+
+
+
+It redirects the user to login page on unsuccessful login attempt  
+
+
+
+
+It redirects the user to the logout page after unsuccessful authentication  
+
+
+
+
+It redirects the user to an error page on unsuccessful login attempt  
+
+
+
+
+It redirects the user to a functional page after successful authentication  ************
+
+
+
+
+
+
+Carefully read the question and answer accordingly.To use Role service, you need to do  which of the folllowing 2 configuration changes to your web.config?
+1.enabling the role service by adding <roleService> element to the <system.web.extensions> section of your web.config file
+2.enabling the role service by adding <role> element to the <system.web.extensions> section of your web.config file
+3.enabling the roles by adding <roleManager enabled=”true” /> element to the <system.web> section of your web.config file
+4.enabling the roles by adding <role enabled=”true” /> element to the <system.web> section of your web.config file
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+1&3  **********
+
+
+
+
+2&3  
+
+
+
+
+2&4  
+
+
+
+
+What does the Profile service do?
+ 
+
+
+
+
+
+
+
+It enables you to display information associated with a user across multiple visits to a web application  
+
+
+
+
+It shows user profiles  
+
+
+
+
+It enables you to load information associated with a user across multiple visits to a web application  
+
+
+
+
+It enables you to store information associated with a user across multiple visits to a web application  ************
+
+

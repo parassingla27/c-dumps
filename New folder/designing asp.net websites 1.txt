@@ -1,0 +1,662 @@
+What is the significance of Culture property of a page class?
+ 
+
+
+
+
+
+
+
+The Culture property is used to specify which resource files are loaded for the page  
+
+
+
+
+The Culture property determines how resource files are used for formatting dates, numerals,and currency amounts  
+
+
+
+The Culture property determines how strings such as dates, numerals,and currency amounts are formatted  ------------
+
+
+
+
+The Culture property determines the default culture of the operating system 
+
+
+
+
+
+
+What does the following culture name denote: en-GB?
+ 
+
+
+
+
+
+
+
+It denotes that the language is English & Country is Global  
+
+
+
+
+It denotes that the language is English & Country is United Kingdom  -------------------
+
+
+
+
+It denotes that the language is English & Country is United States  
+
+
+
+
+It denotes that the language is English & Country is India  
+
+
+
+
+
+
+
+
+How can you display dates with language specific month names?
+ 
+
+
+
+
+
+
+
+By modifying the Culture property  ------------------
+
+
+
+
+By modifying the web.config file  
+
+
+
+
+You cannot display dates with language specific month names  
+
+
+
+
+By modifying the UICulture property  
+
+
+
+
+
+
+
+The _____________ property is used to specify which resource files are loaded for the page.
+ 
+
+
+
+
+
+
+
+Culture  
+
+
+
+
+Localize  
+
+
+
+
+UICulture  ----------------
+
+
+
+Globalize  
+
+
+
+
+
+
+What are the advantages of using .NET components over components developed in older technologies?
+1.No registration required
+2.No restart required
+3.Components cannot be deleted
+4.multiple version of components can exist
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+1&4  ----
+
+
+
+
+1&3&4  
+
+
+
+
+1&2  
+
+
+
+____________is the process of customizing your application for a given culture and locale.
+ 
+
+
+
+
+
+
+
+Customization  
+
+
+
+
+Localization  ----
+
+
+
+
+Culturalization  
+
+
+
+
+Globalization 
+
+
+
+Which are the different ways in which you can separate code & content in ASP.NET?
+1.By using code-behind files that are pre-compiled modules written in any .NET compliant languages
+2.By using resource files
+3.By creating user controls
+4.By moving business logic into components that can run on the server & calling those components from server-side
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+1&3&4  ---
+
+
+
+
+3&4  
+
+
+
+
+1&2&3  
+
+
+Which two properties of a page class have an effect on localization? 
+1.Culture
+2.Localize
+3.UICulture
+4.Globalize
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+1&4  
+
+
+
+
+2&3&4  
+
+
+
+
+1&3  ---
+
+
+What is the differemce w.r.t working between Statement-1 & Statement-2?
+Statement-1: SqlConnection con = new SqlConnection(“Data Source=localhost;Integrated Security=True;Initial Catalog=Pubs”);
+
+Statement-2: SqlConnection con = new SqlConnection(“Server=localhost;Integrated Security=True;Initial Catalog=Pubs”);
+ 
+
+
+
+
+
+
+
+Statemenr-2 will generate an error  
+
+
+
+
+Statement-1 is used for connecting to a local database  
+
+
+
+
+Both statements work in the same manner  ----
+
+
+
+
+Statement-2 is used for connecting to a remote database  
+
+
+
+
+Which all statements are true about Partial Methods?
+1.Partial methods must be members of partial types
+2.Partial methods must be in the same file
+3.There are two parts to partial methods: a defining part and implementation part
+4.Partial methods have only the implementation part
+ 
+
+
+
+
+
+
+
+1&3  ----
+
+
+
+
+2&3  
+
+
+
+
+1&4  
+
+
+
+
+2&4  
+
+
+
+What are the advantages of partitioning an ASP.NET web page?
+1.Individual members of the development team can work on separate, individually-owned parts
+2.Developers can work within environments that are familiar
+3.Database administrators can create database related tasks independently
+4.Web Authors can use HTML development tools to build the interface
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+3&4  
+
+
+
+
+2&3  
+
+
+
+
+1&2&4  ----
+
+
+What will happen if there is an implementing partial without a defining partial in a partial method?
+ 
+
+
+
+
+
+
+
+Compiler generates an error ---- 
+
+
+
+
+Compiler omits the code  
+
+
+
+
+Compiler will generate the defining partial  
+
+
+
+
+Compiler will consider the implementing partial as a normal method and compile the code  
+
+
+
+What are the advantages of partial classes?
+1.When multiple deployments are required
+2.When working on large projects, spreading a class over separate files allows multiple programmers to work on it simultaneously
+3.When multiple versions of assembly are required
+4.When working with automatically generated source, code can be added to the class without having to recreate the source file
+ 
+
+
+
+
+
+
+
+2&4  ----
+
+
+
+
+2&3  
+
+
+
+
+1&3  
+
+
+
+
+1&3&4  
+
+
+
+Which are the basic steps for separating a ASP.NET web page?
+1.Create a file for user interface
+2.Create a file for database
+3.Create a file for interface logic
+4.Use page directive to link the two files
+5.Call procedures in the code-behind page
+ 
+
+
+
+
+
+
+
+1&2&4  
+
+
+
+
+1&3&4&5  -----
+
+
+
+
+1&2&3&5  
+
+
+
+
+3&4  
+
+
+
+
+2&5  
+
+
+
+
+
+
+When should the option of precompiling the Web site to have non-updatable UI be used? 
+1.When you want to have a read-only UI
+2.When your UI code contains intellectual property that you want to protect from people who have access to the production server
+3.When you do not have to change the UI often
+4.When you want to have only compiled DLLs on the production server
+ 
+
+
+
+
+
+
+
+2&3&4  ***********
+
+
+
+
+1&2  
+
+
+
+
+1&2&3  
+
+
+
+
+3&4  
+
+
+
+
+
+
+
+
+
+
+
+
+Carefully read the question and answer accordingly.Please go through the following code & select the relevant options:
+// File-A
+public partial struct CurrencyDetails
+{
+ private double amount;
+ public double Amount
+ {
+  get
+  {
+   return amount;
+  }
+  set
+  {
+   amount = value;
+   AmountChanged(amount);
+  }
+ }
+
+ partial void AmountChanged(double amount);
+}
+
+
+// File-B
+public partial struct CurrencyDetails
+{
+ partial void AmountChanged(double amount)
+ {
+  MessageBox.Show(“Amount is “ + amount.ToString());
+ }
+}
+1.It is an example of sealed class
+2.It is an example of Partial Method
+3.AmountChanged method has only defining partial
+4.AmountChanged method has defining partial as well as implementing partial
+ 
+
+
+
+
+
+
+
+2&4  **********
+
+
+
+
+1&2&3  
+
+
+
+
+1&3  
+
+
+
+
+3&4  
+
+
+
+
+
+Culture & UICulture properties of a page class can have different culture values.
+State True or False.  
+
+
+
+
+
+
+
+True  ********
+
+
+
+
+False  
+
+
+
+ What is referred to as Specific Culture?
+ 
+
+
+
+
+
+
+
+If you provide only a language code but no country/region code  
+
+
+
+
+If you provide only a country/region code but no language code  
+
+
+
+
+If you do not provide either a language code or a country/region code  
+
+
+
+
+If you provide both a language code and a country/region code  *******
+
+
+Carefully read the question and answer accordingly.What are your observations on the following code? 
+using System;
+using System.Diagnostics;
+
+class Sample
+{
+    static void Main()
+    {
+       Trace.Listeners.Add(new TextWriterTraceListener(Console.Out));
+       Trace.AutoFlush = true;
+       Trace.Indent();
+       Trace.WriteLine("Entering Main");
+       Console.WriteLine("Sample Program");
+       Trace.WriteLine("Exiting Main"); 
+       Trace.Unindent();
+    }
+}
+
+1.The following code snippet enables application level tracing
+2.The following code snippet shows usage of Trace class
+3.In the following code the start & end of the program is traced
+4.The following code writes trace output to a text file
+
+
+2&3  *********
+
+
+
+
+1&4  
+
+
+
+
+3&4  
+
+
+
+
+1&2&3  
+
+
+
+What is the effect on the currency amount values by setting the Culture information?
+ 
+
+
+
+
+
+
+
+Currency symbol is automatically placed  
+
+
+
+
+Currency values are fetched from web.config file  
+
+
+
+
+No effect on the currency values  ------------------
+
+
+
+
+Currency values are automatically converted  
+
+

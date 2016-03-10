@@ -1,0 +1,308 @@
+In a fully rendered control which class is used to write the HTML content to the browser?
+ 
+
+
+
+
+
+
+
+TextHtmlWriter  
+
+
+
+
+HtmlTextWriter  ************
+
+
+
+
+TextWriter  
+
+
+
+
+HtmlWriter  
+
+
+
+Which statements are true about themes?
+1.Themes enable you to apply consistent style to pages in your website
+2.Themes can be used to control navigation order between pages
+3.Themes can be used to control the appearance of HTML elements
+4.Themes can be used to control the appearance of ASP.NET controls
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&2&3  
+
+
+
+
+3&4  
+
+
+
+
+1&3&4  *******
+
+
+
+How are themes different from master pages?
+ 
+
+
+
+
+
+
+
+Themes allow you to share data across multiple pages in a web site  
+
+
+
+
+Themes allow you to control the appearance of contents  ***********
+
+
+
+
+Themes allow you to share content across multiple pages in a web site  
+
+
+
+
+Themes & Master pages are both same  
+
+
+
+
+
+Carefully read the question and answer accordingly.Please choose statements that are true about creating themes.
+1.Themes are created by adding a folder in App_Themes folder
+2.Themes are created by adding a folder in App_Directory folder
+3.Each folder that you add to the App_Directory folder represents a different Theme
+4.Each folder that you add to the App_Themes folder represents a different Theme
+
+
+3&4  
+
+
+
+
+1&4  **********
+
+
+
+
+2&3  
+
+
+
+
+1&2&4  
+
+
+
+
+Which statements are true about Skins to Themes?
+1.A theme can contain only one skin
+2.A theme can contain one or more Skin files
+3.A skin enables you to modify any of the events of an ASP.NET control that get triggered on certain conditions
+4.A skin enables you to modify any of the properties of an ASP.NET control that have an effect on its appearance
+ 
+
+
+
+
+
+
+
+1&2&4  
+
+
+
+
+1&3  
+
+
+
+
+2&4  ***********
+
+
+
+
+2&3&4  
+
+
+
+
+
+What does the following code snippet denote?
+<asp:TextBox
+SkinID=”DashedTextBox”
+BorderStyle=”Dashed”
+BorderWidth=”5px”
+Runat=”Server” />
+ 
+
+
+
+
+
+
+
+Usage of a stylesheet  
+
+
+
+
+Usage of a Default skin  
+
+
+
+
+Usage of a Master page  
+
+
+
+
+Usage of a Named skin  *************
+
+
+
+
+
+Carefully read the question and answer accordingly.How can you override Skin properties?
+ 
+
+
+
+
+
+
+
+By applying a Theme to a page with the MasterPage attribute  
+
+
+
+
+By applying a Theme to a page with the Skin attribute  
+
+
+
+
+By applying a Theme to a page with the Theme attribute  
+
+
+
+
+By applying a Theme to a page with the StyleSheetTheme attribute  **********
+
+
+
+
+
+
+How can you prevent a skin from being applied to a particular control?
+ 
+
+
+
+
+
+
+
+By setting EnableTheming property to false  **********
+
+
+
+
+By setting EnableTheming property to true  
+
+
+
+
+By setting DisableTheming property to false  
+
+
+
+
+By setting DisableTheming property to true  
+
+
+
+
+What does the following listing denote?
+<configuration>
+  <system.web>
+  <pages theme=”Website” />
+  </system.web>
+</configuration>
+ 
+
+
+
+
+
+
+
+Registring a Skin in web.config  
+
+
+
+
+Registring a StyleSheetTheme in web.config  
+
+
+
+
+Registring a theme in web.config  *********
+
+
+
+
+Registring a MasterPage in web.config  
+
+
+
+
+
+
+How can you expose properties & methods from a Master Page so that they are modifiable from a particular content page?
+ 
+
+
+
+
+
+
+
+By declaring them as protected  
+
+
+
+
+By declaring them as private  
+
+
+
+
+You cannot expose properties & methods from a Master Page so that they are modifiable from a particular content page  
+
+
+
+
+By declaring them as public  ************
+

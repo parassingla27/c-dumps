@@ -1,0 +1,334 @@
+
+Carefully read the question and answer accordingly.Which of the following .NET components can be used to remove unused references from the managed heap?
+ 
+
+
+
+
+
+
+
+CLR  
+
+
+
+
+Garbage Collector  ---------------------------------------
+
+
+
+
+Class Loader  
+
+
+
+
+Common Language Infrastructure  
+
+
+
+
+Carefully read the question and answer accordingly.Which of the following assemblies can be stored in Global Assembly Cache?
+ 
+
+
+
+
+
+
+
+Private Assemblies  
+
+
+
+
+Shared Assemblies  ---------------
+
+
+
+
+Public Assemblies  
+
+
+
+
+Friend Assemblies  
+
+
+
+Carefully read the question and answer accordingly.Code that targets the Common Language Runtime is known as:
+ 
+
+
+
+
+
+
+
+Distributed  
+
+
+
+
+Managed Code ----------------- 
+
+
+
+
+Legacy  
+
+
+
+
+Unmanaged  
+
+
+
+Carefully read the question and answer accordingly.Which of the following statements is correct about the .NET Framework?
+ 
+
+
+
+
+
+
+
+.NET Framework uses DCOM for achieving language interoperability.  
+
+
+
+
+.NET Framework uses DCOM for creating unmanaged applications.  
+
+
+
+
+.NET Framework uses DCOM for making transition between managed and unmanaged code.  ----------------
+
+
+
+
+.NET Framework is built on the DCOM technology.  
+
+
+
+Carefully read the question and answer accordingly.Which of the following are valid .NET CLR JIT performance counters?
+
+I: Total memory used for JIT compilation 
+
+II: Average memory used for JIT compilation 
+
+III: Number of methods that failed to compile with the standard JIT 
+
+IV: Percentage of processor time spent performing JIT compilation 
+
+V: Percentage of memory currently dedicated for JIT compilation 
+
+
+ 
+
+
+
+
+
+
+
+IV & V  
+
+
+
+
+I, II & IV  
+
+
+
+
+I, II, III & IV  -----------------
+
+
+
+
+I & II  
+
+
+
+
+III & IV  
+
+
+
+
+
+
+
+
+
+
+Carefully read the question and answer accordingly.Which of the following is the root of the .NET type hierarchy?
+ 
+
+
+
+
+
+
+
+System.Base  
+
+
+
+
+System.Parent  
+
+
+
+
+System.Type  
+
+
+
+
+System.Object  ---------------
+
+
+
+Carefully read the question and answer accordingly.Which of the following components of the .NET framework provide an extensible set of classes that can be used by any .NET compliant programming language?
+ 
+
+
+
+
+
+
+
+.NET class libraries  ---------------
+
+
+
+
+Common Language Runtime  
+
+
+
+
+Component Object Model  
+
+
+
+
+Common Language Infrastructure  
+
+
+
+Carefully read the question and answer accordingly.Which of the following constitutes the .NET Framework?
+1.ASP.NET Applications 
+2.CLR
+3.Frame Work Class Library
+4.WinForm Applications
+5.Windows Services
+ 
+
+
+
+
+
+
+
+1&2&4  
+
+
+
+
+1&2&3&4  
+
+
+
+
+2&3  -------------
+
+
+
+
+3&4&5  
+
+
+
+
+1&2&5  
+
+
+Carefully read the question and answer accordingly.Which of the following statements are TRUE about the .NET CLR? 
+
+I: It provides a language-neutral development & execution environment. 
+
+II: It ensures that an application would not be able to access memory that it is not authorized to access.
+
+III: It provides services to run "managed" applications. 
+
+IV: The resources are garbage collected. 
+
+V: It provides services to run "unmanaged" applications. 
+
+ 
+
+
+
+
+
+
+
+I & II  
+
+
+
+
+IV & V  
+
+
+
+
+I, II, III & IV  -------------------
+
+
+
+
+I, II & IV  
+
+
+
+
+III & IV  
+
+
+
+Carefully read the question and answer accordingly.Which of the following are parts of the .NET Framework?
+1.The Common Language Runtime(CLR)
+2.The Framework Class Libraries
+3.Microsoft Published Webservices
+4.Mobile Applications
+ 
+
+
+
+
+
+
+
+1&2  ----------------
+
+
+
+
+1&2&3  
+
+
+
+
+3&4  
+
+
+
+
+2&3&4  
+
+

@@ -1,0 +1,373 @@
+
+Carefully read the question and answer accordingly.Which statements are true about trigger creation?
+1.CREATE TRIGGER must be the first statement in the batch 
+2.CREATE TRIGGER must be the last statement in the batch 
+3.CREATE TRIGGER can apply to only one table
+4.CREATE TRIGGER can apply to multiple tables
+5.A trigger is created only in the current database; however, a trigger can reference objects outside the current database
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+4&5  
+
+
+
+
+2&3&4  
+
+
+
+
+2&4  
+
+
+
+
+1&3&5  ---
+
+
+
+
+Carefully read the question and answer accordingly.What is the significance of INSTEAD OF argument of the CREATE TRIGGER statement?
+1.Specifies that the DML trigger is executed instead of the triggering SQL statement
+2.It overrides the actions of the triggering statements
+3.It can be specified for DDL or logon triggers
+4.It cannot be specified for DDL or logon triggers
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+1&2&4  ---
+
+
+
+
+3&4  
+
+
+
+
+1&4  
+
+
+Carefully read the question and answer accordingly.Which statements are true about Clustered index?
+1.A clustered index sorts and stores the data rows of the table or view in order based on the clustered index key
+2.A clustered index sorts and stores the data columns of the table or view in order based on the clustered index key
+3.A clustered index is implemented as a B-tree index structure
+4.A clustered index is implemented as a Linked-list structure
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+1&3  ---
+
+
+
+
+2&3&4  
+
+
+
+
+1&4  
+
+
+
+Carefully read the question and answer accordingly.What is the significance of the Results pane of the Query designer?
+1.It shows a grid with data retrieved by the query or view
+2.It shows the results of the most recently executed SELECT query
+3.It shows the query syntax
+4.You can modify the database by editing values in the cells of the grid
+5.You can add or delete rows
+ 
+
+
+
+
+
+
+
+1&2&3&4  
+
+
+
+
+2&3&5  
+
+
+
+
+1&3&5  
+
+
+
+
+1&2&5  
+
+
+
+
+1&2&4&5  ---
+
+
+
+
+Carefully read the question and answer accordingly.Which statements are true about AFTER trigger?
+1.AFTER trigger executes after the statement that triggered it completes
+2.AFTER trigger executes after the last trigger in the queue
+3.If the statement fails with an error the trigger is not executed
+4.AFTER triggers cannot be specified for tables, they can only be specified for views
+5.AFTER triggers cannot be specified for views, they can only be specified for tables
+ 
+
+
+
+
+
+
+
+1&2&5  
+
+
+
+
+1&2&3  
+
+
+
+
+1&3&5  ---
+
+
+
+
+2&3&4  
+
+
+
+
+4&5 
+
+
+
+
+Carefully read the question and answer accordingly.Where all clustered indexes are useful?
+1.For remotely used queries
+2.For frequently used queries
+3.For providing a high degree of uniqueness
+4.Where the requirement is for range queries
+5.For providing high degree of efficiency
+ 
+
+
+
+
+
+
+
+1&4&5  
+
+
+
+
+2&3&4  ---
+
+
+
+
+1&4  
+
+
+
+
+1&2&3  
+
+
+
+
+3&5  
+
+
+
+
+Carefully read the question and answer accordingly.Which are the different mechanisms of creating Nonclustered indexes?
+1.Implicitly with PRIMARY KEY & UNIQUE constraints
+2.Explicitly with PRIMARY KEY & UNIQUE constraints
+3.Implicitly with CREATE INDEX
+4.Explicitly with CREATE INDEX
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&4  ---
+
+
+
+
+1&3  
+
+
+
+
+2&3  
+
+
+
+Carefully read the question and answer accordingly.Which all index options can be set without rebuilding the index?
+1.ALLOW_PAGE_LOCKS
+2.ALLOW_ROW_LOCKS
+3.IGNORE_DUP_KEY
+4.DATA_COMPRESSION
+5.STATISTICS_NORECOMPUTE
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+3&4&5  
+
+
+
+
+1&2&3&5  ---
+
+
+
+
+2&5  
+
+
+
+
+1&3&5  
+
+
+
+
+Carefully read the question and answer accordingly.Identify types of indexes from the list.
+1.Clustered
+2.Unique
+3.Variable
+4.Spatial
+5.Filtered
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+2&3&4  
+
+
+
+
+3&5  
+
+
+
+
+1&2&4&5  ---
+
+
+
+
+1&2&3&5  
+
+
+
+
+
+Carefully read the question and answer accordingly.What are the benefits of using a Unique index?
+1.It is less error prone
+2.Data integrity of the defined columns is ensured
+3.Additional information helpful to the query optimizer is provided
+4.The performance is not degraded
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+1&2&4  
+
+
+
+
+3&4  
+
+
+
+
+2&3  ---
+
+
+
+
+
+
+
+
+
+
+
+
+

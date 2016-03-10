@@ -1,0 +1,324 @@
+Which method of the Role class will enable you to add an array of users to a role?
+ 
+
+
+
+
+
+
+
+AddUsersToRoles  
+
+
+
+
+AddUserToRole  
+
+
+
+
+AddUserToRoles  
+
+
+
+
+AddUsersToRole  -------
+
+
+
+
+
+What steps should be completed if you want to use ASP.NET Membership with Active Directory Application Mode?
+1.Create a SQLServer instance and create the required classes
+2.Create an ADAM instance and create the required classes
+3.Configure your application to use the ActiveDirectoryMembershipProvider and connect to the ADAM instance
+4.Configure your application to use the SqlMembershipProvider and connect to the ADAM instance
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+2&3  ------
+
+
+
+
+1&4  
+
+
+
+
+1&3  
+
+
+
+
+
+Which method enables you to add a reference to a JavaScript file embedded in an assembly?
+ 
+
+
+
+
+
+
+
+RegisterClientScriptBlock  
+
+
+
+
+RegisterArrayDeclaration  
+
+
+
+
+RegisterClientScriptResource  -------
+
+
+
+
+RegisterClientScriptInclude  
+
+
+
+
+
+What does AuthorizationStoreRoleProvider do?
+ 
+
+
+
+
+
+
+
+Enables you to use Microsoft Windows groups to represent role information  
+
+
+
+
+Enables you to store role information in a Microsoft SQL Server database  
+
+
+
+
+Enables you to use Authorization Manager to store role information in an XML file, Active Directory, or Activity Directory Application Mode  --------
+
+
+
+
+Enables you to use ActiveDirectory to represent role information  
+
+
+
+
+
+What happens when a button placed in the UpdatePanel control is clicked?
+1.The page is posted back to the server
+2.UpdatePanel sends the details of button_click event to the server via postback
+3.UpdatePanel hijacks the button_click event
+4.UpdatePanel performs a  Ajax call instead of normal postback
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+2&3  
+
+
+
+
+1&2  
+
+
+
+
+3&4 -----
+
+
+
+
+
+Which control manages client script for AJAX-enabled ASP.NET Web pages
+ 
+
+
+
+
+
+
+
+Update control  
+
+
+
+
+UpdatePanel control  
+
+
+
+
+ScriptManager  control  ------
+
+
+
+
+RunScript control  
+
+
+
+
+
+How can you explicitly abort a previous asynchronous postback?
+ 
+
+
+
+
+
+
+
+By using PageRequestManager abortAsyncPostBack() method  
+
+
+
+
+By using PageRequestManager abortPostBack() method  ------
+
+
+
+
+By using PageRequestManager abortPreviousPostBack() method  
+
+
+
+
+By using PageRequestManager abortPreviousAsyncPostBack() method  
+
+
+
+
+What does WindowsTokenRoleProvider do?
+ 
+
+
+
+
+
+
+
+Enables you to use ActiveDirectory to represent role information  
+
+
+
+
+Enables you to store role information in a Microsoft SQL Server database  
+
+
+
+
+Enables you to use Microsoft Windows groups to represent role information ------ 
+
+
+
+
+Enables you to use Authorization Manager  
+
+
+
+
+
+
+Which Membership provider attributes can be set to determine the password policy?
+1.minRequiredPasswordLength
+2.maxRequiredPasswordLength
+3.minRequiredAlphanumericCharacters
+4.minRequiredNonalphanumericCharacters
+5.passwordStrengthRegularExpression
+
+ 
+
+
+
+
+
+
+
+1&2&5  
+
+
+
+
+2&4&5  
+
+
+
+
+1&4&5  -----
+
+
+
+
+2&3  
+
+
+
+
+1&3&4  
+
+
+
+
+
+Which property of UpdatePanel control gets or sets a Boolean value that indicates whether child controls should trigger an asynchronous postback automatically?
+ 
+
+
+
+
+
+
+
+IsInPartialRendering  
+
+
+
+
+ContentTemplateContainer  
+
+
+
+
+RenderMode  
+
+
+
+
+ChildrenAsTriggers  -----
+
+
+
+
+
+
+ 
+
+
+

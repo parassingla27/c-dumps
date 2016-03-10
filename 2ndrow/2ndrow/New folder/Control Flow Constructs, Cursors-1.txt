@@ -1,0 +1,354 @@
+
+Carefully read the question and answer accordingly.When using an API server cursor in OLE DB, ODBC, and ADO, how are the functions or methods of the API used?
+1.To open a connection
+2.To set attributes or properties defining the characteristics of the cursor the API automatically maps over each result set
+3.To execute one or more Transact-SQL statements
+4.To use API functions or methods to fetch the rows in the result sets
+5.To handle errors
+ 
+
+
+
+
+
+
+
+2&3&5  
+
+
+
+
+1&5  
+
+
+
+
+1&2&3&4  ***************
+
+
+
+
+1&2&4&5  
+
+
+
+
+1&2&4  
+
+
+How will you optimize the performance of the cursor if there are multiple rows & columns to be fetched?
+1.Use all columns in the Declare statement
+2.Use only the required columns in the Declare statement
+3.Change your where clause in the declare statement to only return rows the cursor needs
+4.Ensure you have optimal indexes in place 
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+2&3&4  ************
+
+
+
+
+1&3&4  
+
+
+
+
+3&4  
+
+
+
+
+
+
+Carefully read the question and answer accordingly.Identify disadvantages of using cursors.
+1.They consume more resources
+2.Performance gets hampered due to network round-trips if multiple rows have to be fetched
+3.Performance gets hampered if only the required rows & columns are fetched
+4.Performance gets hampered if all the rows & columns are fetched
+5.Resources remain unused on the server if cursors are not closed properly
+ 
+
+
+
+
+
+
+
+2&4&5  
+
+
+
+
+1&2&3&5  
+
+
+
+
+3&5  
+
+
+
+
+2&3&4  
+
+
+
+
+1&2&4&5  *********
+
+
+What does the LOCAL argument in the DECLARE CURSOR statement denote?
+1.Specifies that cursor can be available only in the batch, stored procedure, or trigger in which the cursor was created
+2.Specifies that cursor can be available to all local resources
+3.The LOCAL cursor will be implicitly deallocated when the batch, stored procedure, or trigger terminates
+4.The LOCAL cursor will have to be explicitly deallocated when the batch, stored procedure, or trigger terminates
+ 
+
+
+
+
+
+
+
+1&3  **********
+
+
+
+
+1&2  
+
+
+
+
+1&3&4  
+
+
+
+
+2&3  
+
+
+
+How do FORWARD_ONLY cursors work?
+1.Data is fetched in bulk
+2.Data is fetched sequentially from the first to the last row
+3.FETCH NEXT is the only fetch option supported
+4.FETCH PREVIOUS is the only fetch option supported
+ 
+
+
+
+
+
+
+
+2&3  ************
+
+
+
+
+1&3&4  
+
+
+
+
+2&3&4  
+
+
+
+
+1&4  
+
+
+
+What all is included in creation of Control flow?
+1.Adding containers that implement repeating workflows in a package or divide a control flow into subsets
+2.Adding containers that implement conditional statements
+3.Adding tasks that support data flow, prepare data, perform workflow and business intelligence functions, and implement script
+4.Separating containers and tasks into an ordered control flow by using precedence constraints
+5.Connecting containers and tasks into an ordered control flow by using precedence constraints
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+1&3&5  *************
+
+
+
+
+2&4  
+
+
+
+
+3&4&5  
+
+
+
+
+1&4  
+
+
+
+
+
+Integration Services includes three types of containers that you can use in a control flow, which are they?
+1.The DoWhile Loop container
+2.The Foreach Loop container
+3.The For Loop container 
+4.The Sequence container
+5.The Switch container 
+ 
+
+
+
+
+
+
+
+2&3&4  **********
+
+
+
+
+4&5  
+
+
+
+
+1&2&5  
+
+
+
+
+3&4  
+
+
+
+
+1&2&3&4  
+
+
+
+
+What is the significance of precedence constraints?
+1.Precedence constraints link executables, containers, and tasks in packages into a control flow
+2.A precedence constraint links two executables: the precedence executable and the constrained executable
+3.The precedence executable runs before the constrained executable
+4.The precedence executable runs after the constrained executable
+ 
+
+
+
+
+
+
+
+1&2&3  ************
+
+
+
+
+1&3&4  
+
+
+
+
+1&2&3&4  
+
+
+
+
+2&4  
+
+
+
+
+Which statements are true about the expression used in precedence constraints?
+1.The expression must evaluate to an integer
+2.The expression must evaluate to true or false
+3.The expression can use literals, system & custom variables
+4.The expression can use stored procedures
+5.The expression can use functions & operators that SSIS grammar provides
+ 
+
+
+
+
+
+
+
+2&3&5  ************
+
+
+
+
+1&2&5  
+
+
+
+
+1&4&5  
+
+
+
+
+1&3&4  
+
+
+
+
+2&4  
+
+
+
+What is the significance of Sequence Containers? Please choose all the relevant options
+1.They define a repeating control flow in a package
+2.They define conditions in a package
+3.They define a control flow that is a subset of the package control flow
+4.They group the package into multiple separate control flows, each containing one or more tasks and containers that run within the overall package control flow
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+3&4  *********
+
+
+
+
+1&3  
+
+
+
+
+2&4  
+

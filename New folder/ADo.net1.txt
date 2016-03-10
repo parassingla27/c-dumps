@@ -1,0 +1,869 @@
+What all services does an Entity Framework provide?
+1.Query services
+2.ClientView services
+3.Remoting Services
+4.Persistence services
+5.Object services
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+1&3&5  
+
+
+
+
+2&3&4&5  
+
+
+
+
+1&2&4&5  -----
+
+
+
+
+1&2&4  
+
+
+
+Which all statements are true about Partition scheme?
+1.A partition scheme specifies how the table or index is partitioned
+2.A partition scheme maps the partitions produced by a partition function to a set of filegroups that you define
+3.When you create a partition scheme, you define the filegroups where the table partitions are mapped, based on the parameters of the partition function
+4.When you create a partition scheme, you define the databases where the table partitions are mapped, based on the parameters of the partition function
+ 
+
+
+
+
+
+
+
+2&3  -----
+
+
+
+
+2&4  
+
+
+
+
+1&3  
+
+
+
+
+1&2&3  
+
+
+
+In ADO.NET which objects enable disconnected mode operations?
+1.DataSet
+2.Data Reader
+3.Data Adapter
+4.Command
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+3&4  
+
+
+
+
+1&3  -----
+
+
+
+
+1&2&3  
+
+
+
+
+What is your observation on the following code?
+using (SqlConnection connection = new SqlConnection(connectString))
+{
+    connection.Open();
+
+    // Start a local transaction.
+    SqlTransaction sqlTran = connection.BeginTransaction();
+
+    // Enlist the command in the current transaction.
+    SqlCommand command = connection.CreateCommand();
+    command.Transaction = sqlTran;
+
+    try
+    {
+        command.CommandText =
+          "INSERT INTO Production.ScrapReason(Name) VALUES('Wrong size')";
+        command.ExecuteNonQuery();
+        command.CommandText =
+          "INSERT INTO Production.ScrapReason(Name) VALUES('Wrong color')";
+        command.ExecuteNonQuery();
+        sqlTran.Commit();
+        Console.WriteLine("Both records were written to database.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+        Console.WriteLine("Neither record was written to database.");
+        sqlTran.Rollback();
+    }
+}
+ 
+
+
+
+
+
+
+
+The following code example demonstrates transactional logic using ADO.NET  -----
+
+
+
+
+The following code example demonstrates transactional logic in a DataSet  
+
+
+
+
+The following code example demonstrates usage of stored procedure  
+
+
+
+
+The following code example demonstrates usage of transactional logic in a DataAdapter  
+
+
+Which all statements are true about partitioning?
+1.Partitioning enables you to manage and access subsets of data from large tables quickly and efficiently
+2.The integrity of a data collection is maintained
+3.The integrity of a data collection is not automatically maintained but will have to be handled manually
+4.Maintenance operations target only the data that is required, instead of the whole table hence are more efficient
+5.Maintenance operations target the whole database instead of individual tables hence are more efficient
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+1&2  
+
+
+
+
+1&2&4  ------
+
+
+
+
+4&5  
+
+
+
+
+2&3  
+
+
+
+
+What does the following code denote? var conn = new SqlConnection(“Data Source=INDIA;Initial Catalog=Products;Integrated Security=True”);
+ 
+
+
+
+
+
+
+
+Instantiation a new catalog  
+
+
+
+
+Instantiation a new SqlConnection object  ------
+
+
+
+
+Instantiation a new Sql table  
+
+
+
+
+Instantiation a new Sql database  
+
+
+
+
+What does the following code denote?
+var premium = from customer in Customers where customer.Grade == “Premium” select customer.Name;
+1.The following code is an example of Database query
+2.The following code is an example of LINQ query
+3.The following code shows the syntax for Ordering data
+4.The following code shows the syntax for Filtering data 
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+3&4  
+
+
+
+
+2&4  -----
+
+
+
+
+1&3  
+
+
+
+
+The Entity Framework divides the data model into three separate models which are those?
+1.Conceptual
+2.Relational
+3.Logical
+4.Physical
+ 
+
+
+
+
+
+
+
+2&4  
+
+
+
+
+1&3&4  -----
+
+
+
+
+1&3  
+
+
+
+
+2&3  
+
+
+
+
+Identify the benefits of implementing EDM in data - intensive .NET projects
+1.Generates a data access layer that isolates the data domain from the application domain
+2.Handles relational database vendor or schema changes without the need to alter C# or VB source code and recompile the project
+3.Models relational database concepts such as triggers & jobs
+4.Models object-oriented concepts such as inheritance and hierarchical (nested) or polymorphic resultsets, which don’t fit the relational model
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+1&4  
+
+
+
+
+1&2  
+
+
+
+
+1&2&4  -----
+
+
+
+What is the significance of ReferentialConstraint element?
+1.This element specifies the value of a reference
+2.This element specifies the direction in a relationship
+3.This element ensures data integrity
+4.This element specifies the value of an element
+ 
+
+
+
+
+
+
+
+1&4  
+
+
+
+
+2&3  -----
+
+
+
+
+1&2&4  
+
+
+
+
+3&4  
+
+
+
+
+Which all statements are applicable to System catalogs?
+1.Provide a set of views that show metadata that describes the objects in an instance of SQL Server
+2.Provide a set of stored procedures that show metadata that describes the objects in an instance of SQL Server
+3.Provide a mechanism for dynamic applications to determine the strucutre & attributes of the objects in any database that they connect
+4.Provide a mechanism for dynamic applications to analyze data contained in a particular table of a database
+ 
+
+
+
+
+
+
+
+1&3  ----
+
+
+
+
+1&2&3  
+
+
+
+
+2&4  
+
+
+
+
+3&4  
+
+
+
+
+
+In what ways entities are like objects?
+1.Entities have a known type
+2.Entities have properties, and these properties can hold scalar values
+3.Entity properties can hold references to other entities
+4.Each entity has a distinct identity
+5.Entities have primary keys that uniquely identify the entity
+ 
+
+
+
+
+
+
+
+1&3&4  
+
+
+
+
+1&2&3&4  -----
+
+
+
+
+1&2&4&5  
+
+
+
+
+1&3&4&5  
+
+
+
+
+2&5  
+
+
+
+
+Why are catalog views the preferred choice for accessing the information in system catalogs?
+1.They provide access to all the metadata
+2.The metadata information is presented in a format that is independent of any catalog table implementation
+3.The metadata information is presented in a format that is dependent on system tables, hence is in a fixed format which is easy to understand
+4.They provide the most direct way to obtain, transform & present customized forms of the catalog metadata
+5.Catalog view names as well as the names of their columns are descriptive
+ 
+
+
+
+
+
+
+
+1&2&4&5  ----
+
+
+
+
+3&4&5  
+
+
+
+
+1&3&5  
+
+
+
+
+1&2&3&4  
+
+
+
+
+2&4  
+
+
+
+
+
+In ADO.NET which objects are involved in connected mode operations?
+1.DataSet
+2.Data Reader
+3.Command
+4.Connection
+ 
+
+
+
+
+
+
+
+2&3  ----
+
+
+
+
+3&4  
+
+
+
+
+1&2  
+
+
+
+
+1&2&4  
+
+
+
+How can SQL Server based applications access the information in system catalogs?
+1.Using Catalog views
+2.Using Database views
+3.Using Information schema views
+4.Using OLE DB schema rowsets
+5.System stored procedures & functions
+ 
+
+
+
+
+
+
+
+1&2&4&5  
+
+
+
+
+1&2&4  
+
+
+
+
+1&3&4&5  -----
+
+
+
+
+2&3&4  
+
+
+
+
+3&5  
+
+
+
+
+What does the Accept_Language header contain?
+
+
+Contains information of the default language  
+
+
+
+
+Contains a list of the user’s preferred languages******  
+
+
+
+
+Contains information of the basic language  
+
+
+
+
+Contains a list of all the languages  
+
+
+
+
+
+
+
+
+
+Carefully read the question and answer accordingly.Which two properties of a page class have an effect on localization? 
+1.Culture
+2.Localize
+3.UICulture
+4.Globalize
+
+
+
+
+3&4  
+
+
+
+
+2&4  
+
+
+
+
+1&2  
+
+
+
+
+1&3  **********
+
+
+
+Carefully read the question and answer accordingly.What does the meta:resourcekey property in the code denote?
+<asp:Button
+id=”btnSubmit”
+meta:resourceKey=”btnSubmit”
+Text=”Save Data”
+ToolTip=”Click to Save data”
+OnClick=”btnSubmit_Click”
+Runat=”server” />
+ 
+
+
+
+
+
+
+
+It represents the control name  
+
+
+
+
+It represents a value from a local resource file  
+
+
+
+
+It represents a resource key in a local resource file  *********
+
+
+
+
+It represents a local resource file name  
+
+
+
+
+How can you retrieve Global resources programmatically?
+ 
+
+
+
+
+
+
+
+By using the GetLocalResourceObject method  
+
+
+
+
+By using the GetObject method  
+
+
+
+
+By using the GetGlobalResourceObject method ******** 
+
+
+
+
+By using the GetResource method  
+
+
+
+
+What types of resource files does ASP.NET framework support?
+1.Local
+2.Private
+3.Protected
+4.Global
+ 
+
+
+
+
+
+
+
+1&2  
+
+
+
+
+1&4  *******
+
+
+
+
+3&4  
+
+
+
+
+2&3&4 
+
+
+
+
+How do you set the Culture or UICulture properties automatically?
+ 
+
+
+
+
+
+
+
+By using the settings in web.config  
+
+
+
+
+By setting UICulture & Culture properties to auto  
+
+
+
+
+By using the Request.UserLanguages property  
+
+
+
+
+By calling the GetCultures method of the CultureInfo class  
+
+
+How do you set the Culture or UICulture properties automatically?
+ 
+
+
+
+
+
+
+
+By using the settings in web.config  
+
+
+
+
+By setting UICulture & Culture properties to auto  *********
+
+
+
+
+By using the Request.UserLanguages property  
+
+
+
+
+By calling the GetCultures method of the CultureInfo class  
+
+
+
+
+Carefully read the question and answer accordingly.How do you set the Culture or UICulture properties once for the entire application instead of each page?
+ 
+
+
+
+
+
+
+
+By calling the GetCultures method of the CultureInfo class  
+
+
+
+
+By using the Request.UserLanguages property  
+
+
+
+
+By setting UICulture & Culture properties to auto  
+
+
+
+
+By setting the values in web.config  **********
+
+
+
+
+How can you retrieve the value of Accept_Language header?
+ 
+
+
+
+
+
+
+
+By calling the GetCultures method of the CultureInfo class  
+
+
+
+
+By using the Request.UserLanguages property  ********
+
+
+
+
+By using the InstantiateData method of the ITemplate interface  
+
+
+
+
+By using the settings in web.config  
+
+
+
+
+Carefully read the question and answer accordingly.Which statements are true about App_LocalResources folder?
+1.All the resource files to be associated with a page must be added to App_LocalResources folder
+2.App_LocalResources folder must contain the application config file
+3.The application config file must contain details of the App_LocalResources folder
+4.App_LocalResources folder is created in the same folder as the page you want to localize
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+3&4  
+
+
+
+
+2&3  
+
+
+
+
+1&4  *********
+
+
+
+What happens when the value of UICulture attribute in the <%@ Page > directive is set to value auto?
+ 
+
+
+
+
+
+
+
+When a user requests the page, a resource file that matches the registry settings is loaded automatically  
+
+
+
+
+When a user requests the page, a resource file that matches the user’s preferred browser language is loaded automatically  ***********
+
+
+
+
+When a user requests the page, a resource file that matches the Culture property of the page directive is loaded automatically  
+
+
+
+
+When a user requests the page, a resource file that matches the settings in the config file is loaded automatically  
+ 

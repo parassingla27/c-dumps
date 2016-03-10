@@ -1,0 +1,377 @@
+
+Carefully read the question and answer accordingly.How are Null values handled in Joins?
+1.When there are null values in the columns of the tables being joined, null value of the right table is matched with the null value of the left table
+2.When there are null values in the columns of the tables being joined, the null values do not match each other
+3.The presence of null values in a column from one of the tables being joined can be returned only by using an inner join
+4.The presence of null values in a column from one of the tables being joined can be returned only by using an outer join
+5.When null values are present in data being joined, it is usually preferable to omit them from the results by using a regular join
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+1&3&4  
+
+
+
+
+1&3  
+
+
+
+
+3&5  
+
+
+
+
+2&4&5  ---
+
+
+
+Carefully read the question and answer accordingly.Which are the basic types of a sub query?
+1.Those that operate on lists introduced with IN
+2.Those that a comparison operator modified by ALL or NOT
+3.Those that are introduced with an unmodified relational operator and must return a computed value
+4.Those that are introduced with an unmodified comparison operator and must return a single value
+5.Those that are existence tests introduced with EXISTS
+ 
+
+
+
+
+
+
+
+2&3&5  
+
+
+
+
+1&5  
+
+
+
+
+1&3&5  
+
+
+
+
+3&4  
+
+
+
+
+1&4&5 ---
+
+
+
+Carefully read the question and answer accordingly.Which statements are applicable to CHECK constraint?
+1.Specifies that the column does not accept NULL values
+2.Enforces domain integrity by limiting the values that can be put in a column
+3.Specifies a Boolean search condition that is applied to all values that are entered for the column
+4.Enforces the uniqueness of the values in a set of columns
+ 
+
+
+
+
+
+
+
+1&2&3  
+
+
+
+
+3&4  
+
+
+
+
+2&3  ---
+
+
+
+
+1&4  
+
+
+
+
+
+
+
+Carefully read the question and answer accordingly.What all components can a subquery nested in the outer SELECT statement have?
+1.A regular SELECT query including the regular select list components
+2.A regular FROM clause including one or more table or view names
+3.A mandatory WHERE clause
+4.A mandatory GROUP BY clause
+5.A optional HAVING clause
+ 
+
+
+
+
+
+
+
+1&2&5  ---
+
+
+
+
+3&5  
+
+
+
+
+1&2&4  
+
+
+
+
+2&5  
+
+
+
+
+1&4&5  
+
+
+
+
+
+
+
+
+
+Carefully read the question and answer accordingly.What does Referential integrity indicate?
+1.It refers to each occurrence of a column having a correct data value
+2.It indicates that the relationships between tables have been corectly maintained
+3.Data in one table should only point to existing rows in another table and not point to rows that do not exist
+4.Data in one table should have multiple fields
+ 
+
+
+
+
+
+
+
+2&3  ---
+
+
+
+
+1&3  
+
+
+
+
+1&4  
+
+
+
+
+2&3&4  
+
+
+
+
+
+Carefully read the question and answer accordingly.What all tasks can Scalar queries be used for?
+1.To establish an implicit inner join
+2.To remove an outer join
+3.To create computed columns from multiple tables
+4.To aggregate from multiple tables
+5.To insert into tables based on values from other tables
+ 
+
+
+
+
+
+
+
+1&3&5  
+
+
+
+
+2&5  
+
+
+
+
+2&4&5  ---
+
+
+
+
+1&2&4  
+
+
+
+
+1&3&4  
+
+
+
+
+
+Carefully read the question and answer accordingly.Which statements are true about Computed columns?
+1.By default, computed columns are not physically stored in the table
+2.Values are retrieved from the internal database cache when they are referenced in a query
+3.Values are recalculated every time they are referenced in a query
+4.A computed column once created cannot be persisted at a later stage
+5.The Database Engine uses the PERSISTED keyword in the CREATE TABLE to physically store computed columns in the table
+ 
+
+
+
+
+
+
+
+3&5  
+
+
+
+
+2&4  
+
+
+
+
+1&5  
+
+
+
+
+1&2&4  
+
+
+
+
+1&3&5  ---
+
+
+
+
+Carefully read the question and answer accordingly.Which statements are true about CROSS APPLY operator?
+1.CROSS APPLY operator is a mechanism to allow a developer to correlate a table valued function to another table
+2.CROSS APPLY operator is a mechanism to allow a developer to correlate a table valued function to a stored procedure of another database
+3.CROSS APPLY returns only rows from the outer table that produce a result set from the table-valued function
+4.CROSS APPLY returns both rows that produce a result set, and rows that do not, with NULL values in the columns produced by the table-valued function
+ 
+
+
+
+
+
+
+
+3&4  
+
+
+
+
+2&3  
+
+
+
+
+1&3  --
+
+
+
+
+1&2&4  
+
+
+
+Carefully read the question and answer accordingly.Which all are the options of ON DELETE clause of a FOREIGN KEY constraint?
+1.CLOSE
+2.NO ACTION
+3.CASCADE
+4.SET NULL
+5.SET DEFAULT
+ 
+
+
+
+
+
+
+
+1&2&3&4  
+
+
+
+
+2&3&4&5  ---
+
+
+
+
+1&3&5  
+
+
+
+
+2&3&4  
+
+
+
+
+1&2&4  
+
+
+
+Carefully read the question and answer accordingly.What are the restrictions a sub-query is subjected to?
+1.If the WHERE clause of an outer query includes a column name, it cannot be join-compatible with the column in the subquery select list
+2.If the WHERE clause of an outer query includes a column name, it must be join-compatible with the column in the subquery select list
+3.The DISTINCT keyword cannot be used with subqueries that include GROUP BY
+4.The DISTINCT keyword cannot be used with subqueries that include ORDER BY
+5.ORDER BY can only be specified when TOP is also specified
+ 
+
+
+
+
+
+
+
+2&3  
+
+
+
+
+3&5  
+
+
+
+
+1&4  
+
+
+
+
+1&4&5  
+
+
+
+
+2&3&5  ---
+
+
